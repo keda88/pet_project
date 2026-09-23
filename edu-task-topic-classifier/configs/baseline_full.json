@@ -1,0 +1,17 @@
+{
+  "kind": "baseline",
+  "mode": "full",
+  "seed": 42,
+  "feature_fields": [
+    "task"
+  ],
+  "train_limit": null,
+  "validation_limit": null,
+  "baseline": {
+    "word_features": 50000,
+    "char_features": 100000,
+    "min_df": 2,
+    "alpha": 1e-05,
+    "epochs": 20
+  }
+}

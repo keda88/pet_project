@@ -1,0 +1,6 @@
+{
+  "threshold": 0.85,
+  "fitted_on": "validation",
+  "criterion": "masked topic micro F1",
+  "grid": "0.05..0.95 step 0.05"
+}

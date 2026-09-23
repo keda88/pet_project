@@ -1,0 +1,6722 @@
+{
+  "n": 4002,
+  "threshold": 0.85,
+  "subject_accuracy": 0.9950024987506247,
+  "subject_macro_f1": 0.9946711051930759,
+  "topics_masked": {
+    "micro_precision": 0.7164948453608248,
+    "micro_recall": 0.5984214302798374,
+    "micro_f1": 0.652156913853773,
+    "macro_f1_all_labels": 0.334348791389114,
+    "macro_f1_supported_labels": 0.41203206076390814,
+    "macro_precision": 0.35970352059949134,
+    "macro_recall": 0.3431062682383545,
+    "known_pairs": 2607336,
+    "unknown_pairs": 45990
+  },
+  "hierarchical_masked_without_roots": {
+    "micro_precision": 0.900252043076453,
+    "micro_recall": 0.7359056002996816,
+    "micro_f1": 0.8098248024733768,
+    "macro_f1_all_labels": 0.4220338749046296,
+    "macro_f1_supported_labels": 0.45870239190454015,
+    "macro_precision": 0.4679919530773394,
+    "macro_recall": 0.41951835418852607,
+    "known_pairs": 2619172,
+    "unknown_pairs": 34154
+  },
+  "intermediate_label_rows": 919,
+  "topics_intermediate_rows": {
+    "micro_precision": 0.8143525741029641,
+    "micro_recall": 0.588500563697858,
+    "micro_f1": 0.6832460732984293,
+    "macro_f1_all_labels": 0.06798487936050579,
+    "macro_f1_supported_labels": 0.5634246877001917,
+    "macro_precision": 0.08342017970868677,
+    "macro_recall": 0.06150254338784953,
+    "known_pairs": 573175,
+    "unknown_pairs": 36122
+  },
+  "per_topic": [
+    {
+      "id": "2",
+      "name": "Арифметика и начала Алгебры",
+      "train_support": 1,
+      "eval_support": 0,
+      "known_negative": 2566,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "3",
+      "name": "Арифметика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3861,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "4",
+      "name": "Натуральные числа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3947,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "6",
+      "name": "Дробные числа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3911,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "8",
+      "name": "Сложение и вычитание десятичных дробей",
+      "train_support": 73,
+      "eval_support": 8,
+      "known_negative": 3939,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333
+    },
+    {
+      "id": "9",
+      "name": "Текстовые задачи",
+      "train_support": 312,
+      "eval_support": 47,
+      "known_negative": 3815,
+      "precision": 0.8780487804878049,
+      "recall": 0.7659574468085106,
+      "f1": 0.8181818181818182
+    },
+    {
+      "id": "10",
+      "name": "Задачи на нахождение двух чисел по их сумме и разности",
+      "train_support": 4,
+      "eval_support": 0,
+      "known_negative": 3900,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "11",
+      "name": "Задачи на движение",
+      "train_support": 48,
+      "eval_support": 5,
+      "known_negative": 3881,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "12",
+      "name": "Задачи на сближение и удаление",
+      "train_support": 64,
+      "eval_support": 10,
+      "known_negative": 3885,
+      "precision": 0.6666666666666666,
+      "recall": 0.4,
+      "f1": 0.5
+    },
+    {
+      "id": "13",
+      "name": "Движение по воде",
+      "train_support": 25,
+      "eval_support": 1,
+      "known_negative": 3894,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "14",
+      "name": "Движение протяженных тел",
+      "train_support": 2,
+      "eval_support": 1,
+      "known_negative": 3894,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "15",
+      "name": "Движение по окружности (замкнутой трассе)",
+      "train_support": 1,
+      "eval_support": 0,
+      "known_negative": 3895,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "16",
+      "name": "Задачи «на части» и «на уравнивание»",
+      "train_support": 27,
+      "eval_support": 2,
+      "known_negative": 3898,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "17",
+      "name": "Движение вдогонку и движение с отставанием",
+      "train_support": 18,
+      "eval_support": 2,
+      "known_negative": 3893,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "18",
+      "name": "Текстовые арифметические задачи с использованием дробей",
+      "train_support": 90,
+      "eval_support": 8,
+      "known_negative": 3939,
+      "precision": 0.3684210526315789,
+      "recall": 0.875,
+      "f1": 0.5185185185185185
+    },
+    {
+      "id": "19",
+      "name": "Текстовые арифметические задачи с использованием натуральных чисел",
+      "train_support": 1,
+      "eval_support": 0,
+      "known_negative": 3947,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "20",
+      "name": "комплексные вычисления с дробями",
+      "train_support": 124,
+      "eval_support": 20,
+      "known_negative": 3927,
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561
+    },
+    {
+      "id": "21",
+      "name": "Основы элементарной алгебры",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 2854,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "22",
+      "name": "Введение в алгебру",
+      "train_support": 47,
+      "eval_support": 5,
+      "known_negative": 3879,
+      "precision": 0.4444444444444444,
+      "recall": 0.8,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "23",
+      "name": "Раскрытие скобок и приведение подобных слагаемых. ",
+      "train_support": 279,
+      "eval_support": 29,
+      "known_negative": 3913,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "24",
+      "name": "Линейные уравнения с одной переменной",
+      "train_support": 249,
+      "eval_support": 34,
+      "known_negative": 3908,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "25",
+      "name": "Отношения и пропорции",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3923,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "26",
+      "name": "Прямая и обратная пропорциональная зависимость",
+      "train_support": 53,
+      "eval_support": 7,
+      "known_negative": 3940,
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "27",
+      "name": "Сложная зависимость",
+      "train_support": 25,
+      "eval_support": 1,
+      "known_negative": 3946,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "29",
+      "name": "Проценты",
+      "train_support": 61,
+      "eval_support": 4,
+      "known_negative": 3921,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "30",
+      "name": "нахождение числа по его процентам",
+      "train_support": 35,
+      "eval_support": 3,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "31",
+      "name": "нахождение процента от числа",
+      "train_support": 32,
+      "eval_support": 3,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "32",
+      "name": "текстовые задачи на проценты",
+      "train_support": 152,
+      "eval_support": 16,
+      "known_negative": 3927,
+      "precision": 0.6666666666666666,
+      "recall": 0.625,
+      "f1": 0.6451612903225806
+    },
+    {
+      "id": "33",
+      "name": "задачи на проценты",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3848,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "34",
+      "name": "Задачи на увеличение и уменьшение цены ",
+      "train_support": 104,
+      "eval_support": 13,
+      "known_negative": 3887,
+      "precision": 0.7272727272727273,
+      "recall": 0.6153846153846154,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "35",
+      "name": "Задачи на концентрацию",
+      "train_support": 68,
+      "eval_support": 4,
+      "known_negative": 3896,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4
+    },
+    {
+      "id": "36",
+      "name": "Исторические задачи",
+      "train_support": 12,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "37",
+      "name": "Задачи на совместную работу",
+      "train_support": 80,
+      "eval_support": 9,
+      "known_negative": 3891,
+      "precision": 0.875,
+      "recall": 0.7777777777777778,
+      "f1": 0.8235294117647058
+    },
+    {
+      "id": "38",
+      "name": "Задачи на среднее арифметическое",
+      "train_support": 16,
+      "eval_support": 1,
+      "known_negative": 3899,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "39",
+      "name": "Задачи на среднюю скорость",
+      "train_support": 20,
+      "eval_support": 1,
+      "known_negative": 3899,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "40",
+      "name": "пропорциональное деление ",
+      "train_support": 98,
+      "eval_support": 16,
+      "known_negative": 3931,
+      "precision": 0.8666666666666667,
+      "recall": 0.8125,
+      "f1": 0.8387096774193549
+    },
+    {
+      "id": "41",
+      "name": "Алгебра и начала анализа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3547,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "42",
+      "name": "Показательная функция",
+      "train_support": 106,
+      "eval_support": 14,
+      "known_negative": 3760,
+      "precision": 0.7368421052631579,
+      "recall": 1.0,
+      "f1": 0.8484848484848485
+    },
+    {
+      "id": "43",
+      "name": "Показательные и логарифмические уравнения",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3878,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "44",
+      "name": "простые показательные уравнения",
+      "train_support": 93,
+      "eval_support": 16,
+      "known_negative": 3917,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    {
+      "id": "45",
+      "name": "смешанные показательные уравнения",
+      "train_support": 77,
+      "eval_support": 10,
+      "known_negative": 3923,
+      "precision": 0.38461538461538464,
+      "recall": 1.0,
+      "f1": 0.5555555555555556
+    },
+    {
+      "id": "46",
+      "name": "Последовательность",
+      "train_support": 26,
+      "eval_support": 3,
+      "known_negative": 3837,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "47",
+      "name": "Числовые последовательности",
+      "train_support": 275,
+      "eval_support": 36,
+      "known_negative": 3908,
+      "precision": 0.9722222222222222,
+      "recall": 0.9722222222222222,
+      "f1": 0.9722222222222222
+    },
+    {
+      "id": "48",
+      "name": "Метод математической индукции",
+      "train_support": 17,
+      "eval_support": 0,
+      "known_negative": 3944,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "49",
+      "name": " Арифметическая прогрессия",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3921,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "50",
+      "name": " Определение арифметической прогрессии.Свойства арифметической прогрессии",
+      "train_support": 84,
+      "eval_support": 15,
+      "known_negative": 3929,
+      "precision": 0.6818181818181818,
+      "recall": 1.0,
+      "f1": 0.8108108108108109
+    },
+    {
+      "id": "51",
+      "name": "Сумма п первых членов арифметической прогрессии",
+      "train_support": 74,
+      "eval_support": 4,
+      "known_negative": 3940,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5
+    },
+    {
+      "id": "52",
+      "name": "Геометрическая прогрессия",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3922,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "53",
+      "name": "Определение геометрической прогрессии",
+      "train_support": 61,
+      "eval_support": 6,
+      "known_negative": 3938,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "54",
+      "name": "Сумма п первых членов геометрической прогрессии",
+      "train_support": 38,
+      "eval_support": 7,
+      "known_negative": 3937,
+      "precision": 0.5555555555555556,
+      "recall": 0.7142857142857143,
+      "f1": 0.625
+    },
+    {
+      "id": "55",
+      "name": "Предел последовательности",
+      "train_support": 137,
+      "eval_support": 13,
+      "known_negative": 3914,
+      "precision": 1.0,
+      "recall": 0.9230769230769231,
+      "f1": 0.96
+    },
+    {
+      "id": "57",
+      "name": "Свойства бесконечно малых последовательностей",
+      "train_support": 66,
+      "eval_support": 10,
+      "known_negative": 3921,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    },
+    {
+      "id": "58",
+      "name": "Бесконечно большие последовательности",
+      "train_support": 66,
+      "eval_support": 10,
+      "known_negative": 3921,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    },
+    {
+      "id": "59",
+      "name": "Определение предела последовательности",
+      "train_support": 82,
+      "eval_support": 11,
+      "known_negative": 3920,
+      "precision": 0.7333333333333333,
+      "recall": 1.0,
+      "f1": 0.8461538461538461
+    },
+    {
+      "id": "60",
+      "name": "Теоремы о пределах",
+      "train_support": 108,
+      "eval_support": 16,
+      "known_negative": 3915,
+      "precision": 0.9375,
+      "recall": 0.9375,
+      "f1": 0.9375
+    },
+    {
+      "id": "61",
+      "name": "Многочлены",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3838,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "62",
+      "name": "квадратный трехчлен",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3890,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "63",
+      "name": "Квадратные уравнения",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3890,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "64",
+      "name": "Определение квадратного уравнения",
+      "train_support": 93,
+      "eval_support": 8,
+      "known_negative": 3939,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    {
+      "id": "65",
+      "name": "Формула корней квадратного уравнения",
+      "train_support": 103,
+      "eval_support": 17,
+      "known_negative": 3930,
+      "precision": 1.0,
+      "recall": 0.7647058823529411,
+      "f1": 0.8666666666666667
+    },
+    {
+      "id": "66",
+      "name": "Теорема Виета",
+      "train_support": 94,
+      "eval_support": 20,
+      "known_negative": 3927,
+      "precision": 0.95,
+      "recall": 0.95,
+      "f1": 0.95
+    },
+    {
+      "id": "67",
+      "name": "Разложение квадратного трехчлена на линейные множетели",
+      "train_support": 87,
+      "eval_support": 7,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "68",
+      "name": "Рациональные уравнения как математические модели реальных ситуаций",
+      "train_support": 61,
+      "eval_support": 5,
+      "known_negative": 3942,
+      "precision": 0.5,
+      "recall": 0.4,
+      "f1": 0.4444444444444444
+    },
+    {
+      "id": "69",
+      "name": "Действительные числа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3827,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "70",
+      "name": "Иррациональные выражения",
+      "train_support": 90,
+      "eval_support": 17,
+      "known_negative": 3848,
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1": 0.9090909090909091
+    },
+    {
+      "id": "71",
+      "name": "Общие сведения о корнях. Извлечение корня из одночлена.",
+      "train_support": 22,
+      "eval_support": 4,
+      "known_negative": 3926,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "72",
+      "name": "Вывод множителя из-под радикала и введение множителя под радикал",
+      "train_support": 78,
+      "eval_support": 7,
+      "known_negative": 3923,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "73",
+      "name": "Сокращение показателей корней и приведение радикалов к общему показателю",
+      "train_support": 19,
+      "eval_support": 2,
+      "known_negative": 3928,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "74",
+      "name": "Приведение корней к нормальному виду",
+      "train_support": 7,
+      "eval_support": 1,
+      "known_negative": 3929,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "75",
+      "name": "Подобие корней",
+      "train_support": 17,
+      "eval_support": 1,
+      "known_negative": 3929,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "76",
+      "name": "Сложение и вычитание корней",
+      "train_support": 14,
+      "eval_support": 3,
+      "known_negative": 3927,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "77",
+      "name": "Умножение и деление корней",
+      "train_support": 54,
+      "eval_support": 10,
+      "known_negative": 3920,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "78",
+      "name": "Возведение корней в степень и извлечение из них корня",
+      "train_support": 29,
+      "eval_support": 4,
+      "known_negative": 3926,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "79",
+      "name": "Уничтожение иррациональности в знаменателе дроби",
+      "train_support": 17,
+      "eval_support": 1,
+      "known_negative": 3929,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "80",
+      "name": "Квадратный корень из двучлена вида A±√B. Формула сложного радикала",
+      "train_support": 12,
+      "eval_support": 1,
+      "known_negative": 3929,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "81",
+      "name": "Задачи на все действия над радикалом",
+      "train_support": 21,
+      "eval_support": 3,
+      "known_negative": 3927,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "82",
+      "name": "Степени и корни с дробными показателями",
+      "train_support": 37,
+      "eval_support": 5,
+      "known_negative": 3925,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "83",
+      "name": "Алгебраические дроби",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3885,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "84",
+      "name": "Основные понятия",
+      "train_support": 189,
+      "eval_support": 24,
+      "known_negative": 3923,
+      "precision": 0.9545454545454546,
+      "recall": 0.875,
+      "f1": 0.9130434782608695
+    },
+    {
+      "id": "85",
+      "name": " Сложение и вычитание алгебраических дробей",
+      "train_support": 169,
+      "eval_support": 23,
+      "known_negative": 3924,
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1": 0.9787234042553191
+    },
+    {
+      "id": "86",
+      "name": "Умножение и деление алгебраических дробей. Возведение алгебраической дроби в степень",
+      "train_support": 115,
+      "eval_support": 14,
+      "known_negative": 3933,
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333333333333333
+    },
+    {
+      "id": "87",
+      "name": "Тригонометрия",
+      "train_support": 122,
+      "eval_support": 16,
+      "known_negative": 3760,
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1": 0.9411764705882353
+    },
+    {
+      "id": "88",
+      "name": "Начала тригонометрии",
+      "train_support": 32,
+      "eval_support": 3,
+      "known_negative": 3928,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "89",
+      "name": "Формулы сложения и их следствия",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3902,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "90",
+      "name": "Формулы сложения",
+      "train_support": 62,
+      "eval_support": 4,
+      "known_negative": 3927,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "91",
+      "name": "Формулы двойного аргумента",
+      "train_support": 4,
+      "eval_support": 0,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "92",
+      "name": "Формулы приведения",
+      "train_support": 49,
+      "eval_support": 13,
+      "known_negative": 3918,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "93",
+      "name": "Формулы суммы и разности одноименных тригонометрических функций, формулы преобразования произведения тригонометрических функций в сумму",
+      "train_support": 74,
+      "eval_support": 9,
+      "known_negative": 3922,
+      "precision": 0.8888888888888888,
+      "recall": 0.8888888888888888,
+      "f1": 0.8888888888888888
+    },
+    {
+      "id": "94",
+      "name": "Формулы тройного и половинного аргументов. Выражение тригонометрических функций через тангенс половинного аргумента",
+      "train_support": 31,
+      "eval_support": 2,
+      "known_negative": 3929,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "95",
+      "name": "Формулы преобразования выражения Asin(x) +Bcos(x)",
+      "train_support": 25,
+      "eval_support": 1,
+      "known_negative": 3930,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "96",
+      "name": "Обратные тригонометрические функции",
+      "train_support": 95,
+      "eval_support": 13,
+      "known_negative": 3918,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "97",
+      "name": "Элементы высшей математики",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3734,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "98",
+      "name": "основы математического анализа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3734,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "99",
+      "name": "Дифференцирование функций",
+      "train_support": 57,
+      "eval_support": 7,
+      "known_negative": 3771,
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "100",
+      "name": "Определение производной",
+      "train_support": 195,
+      "eval_support": 17,
+      "known_negative": 3923,
+      "precision": 0.7727272727272727,
+      "recall": 1.0,
+      "f1": 0.8717948717948718
+    },
+    {
+      "id": "101",
+      "name": "Техника дифференцирования",
+      "train_support": 186,
+      "eval_support": 19,
+      "known_negative": 3891,
+      "precision": 0.6666666666666666,
+      "recall": 0.9473684210526315,
+      "f1": 0.782608695652174
+    },
+    {
+      "id": "102",
+      "name": "производная степенных функций",
+      "train_support": 42,
+      "eval_support": 2,
+      "known_negative": 3919,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "103",
+      "name": "Производная произведения и частного функций",
+      "train_support": 15,
+      "eval_support": 2,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "104",
+      "name": "Производная сложной функции",
+      "train_support": 100,
+      "eval_support": 9,
+      "known_negative": 3912,
+      "precision": 0.5833333333333334,
+      "recall": 0.7777777777777778,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "105",
+      "name": "Производные тригонометрических функций",
+      "train_support": 53,
+      "eval_support": 6,
+      "known_negative": 3915,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "106",
+      "name": "Производная показательной и логарифмической функции",
+      "train_support": 96,
+      "eval_support": 11,
+      "known_negative": 3910,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "107",
+      "name": "Приложения производной",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3837,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "108",
+      "name": "Производная и экстремумы. Критические точки",
+      "train_support": 284,
+      "eval_support": 28,
+      "known_negative": 3912,
+      "precision": 0.7714285714285715,
+      "recall": 0.9642857142857143,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "109",
+      "name": "Уравнения касательной и нормали",
+      "train_support": 208,
+      "eval_support": 18,
+      "known_negative": 3922,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714
+    },
+    {
+      "id": "110",
+      "name": "Наибольшее и наименьшее значения функции",
+      "train_support": 203,
+      "eval_support": 34,
+      "known_negative": 3906,
+      "precision": 0.9310344827586207,
+      "recall": 0.7941176470588235,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "111",
+      "name": "Монотонность функций",
+      "train_support": 264,
+      "eval_support": 29,
+      "known_negative": 3911,
+      "precision": 0.7777777777777778,
+      "recall": 0.9655172413793104,
+      "f1": 0.8615384615384616
+    },
+    {
+      "id": "112",
+      "name": "текстовые задачи на оптимизацию",
+      "train_support": 167,
+      "eval_support": 13,
+      "known_negative": 3927,
+      "precision": 0.9090909090909091,
+      "recall": 0.7692307692307693,
+      "f1": 0.8333333333333334
+    },
+    {
+      "id": "113",
+      "name": "логарифм числа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "114",
+      "name": "определение логарифма",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 3931,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    {
+      "id": "115",
+      "name": "Свойства логарифмов",
+      "train_support": 147,
+      "eval_support": 16,
+      "known_negative": 3917,
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1": 0.9411764705882353
+    },
+    {
+      "id": "117",
+      "name": "Степень с натуральным показателем и ее свойства",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3881,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "118",
+      "name": "понятие степени с целым показателем",
+      "train_support": 104,
+      "eval_support": 17,
+      "known_negative": 3916,
+      "precision": 0.6956521739130435,
+      "recall": 0.9411764705882353,
+      "f1": 0.8
+    },
+    {
+      "id": "119",
+      "name": "Таблица основных степеней",
+      "train_support": 79,
+      "eval_support": 12,
+      "known_negative": 3921,
+      "precision": 0.5789473684210527,
+      "recall": 0.9166666666666666,
+      "f1": 0.7096774193548387
+    },
+    {
+      "id": "120",
+      "name": "Свойства степени с натуральными показателями",
+      "train_support": 131,
+      "eval_support": 12,
+      "known_negative": 3921,
+      "precision": 0.9166666666666666,
+      "recall": 0.9166666666666666,
+      "f1": 0.9166666666666666
+    },
+    {
+      "id": "121",
+      "name": "Умножение и деление степеней с одинаковыми показателями",
+      "train_support": 115,
+      "eval_support": 11,
+      "known_negative": 3922,
+      "precision": 0.6875,
+      "recall": 1.0,
+      "f1": 0.8148148148148148
+    },
+    {
+      "id": "123",
+      "name": "Понятие многочлена",
+      "train_support": 26,
+      "eval_support": 2,
+      "known_negative": 3898,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "124",
+      "name": "стандартный вид многочлена",
+      "train_support": 161,
+      "eval_support": 22,
+      "known_negative": 3923,
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1": 0.9565217391304348
+    },
+    {
+      "id": "125",
+      "name": "Сложение и вычитание многочленов",
+      "train_support": 26,
+      "eval_support": 3,
+      "known_negative": 3942,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "126",
+      "name": "Умножение многочлена на одночлен",
+      "train_support": 32,
+      "eval_support": 2,
+      "known_negative": 3943,
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4
+    },
+    {
+      "id": "127",
+      "name": "Умножение многочлена на многочлен",
+      "train_support": 4,
+      "eval_support": 0,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "128",
+      "name": "Формулы сокращенного умножения",
+      "train_support": 82,
+      "eval_support": 9,
+      "known_negative": 3932,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "129",
+      "name": "Деление многочлена на одночлен",
+      "train_support": 54,
+      "eval_support": 5,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "130",
+      "name": "Алгебраические уравнения и системы уравнений",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3938,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "131",
+      "name": "Свойства многочленов",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3943,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "132",
+      "name": "общие свойства многочленов",
+      "train_support": 6,
+      "eval_support": 0,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "133",
+      "name": "коэффициенты многочленов",
+      "train_support": 8,
+      "eval_support": 1,
+      "known_negative": 3944,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "134",
+      "name": "Делимость многочленов",
+      "train_support": 3,
+      "eval_support": 0,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "135",
+      "name": "Разность квадратов",
+      "train_support": 52,
+      "eval_support": 2,
+      "known_negative": 3934,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "136",
+      "name": "Куб суммы и куб разности",
+      "train_support": 2,
+      "eval_support": 1,
+      "known_negative": 3935,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "137",
+      "name": "сумма двух квадратов",
+      "train_support": 2,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "138",
+      "name": "Разные тождества",
+      "train_support": 4,
+      "eval_support": 1,
+      "known_negative": 3944,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "139",
+      "name": "Формула для xⁿ-yⁿ",
+      "train_support": 7,
+      "eval_support": 1,
+      "known_negative": 3935,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "140",
+      "name": "Формула для xⁿ+yⁿ",
+      "train_support": 8,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "141",
+      "name": "задачи с разными методами решения",
+      "train_support": 62,
+      "eval_support": 9,
+      "known_negative": 3891,
+      "precision": 0.6666666666666666,
+      "recall": 0.2222222222222222,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "142",
+      "name": "Геометрия",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3081,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "143",
+      "name": "Планиметрия",
+      "train_support": 22,
+      "eval_support": 6,
+      "known_negative": 3359,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "144",
+      "name": "начальные тригонометрические сведения",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3907,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "145",
+      "name": "точка. Прямая. Луч",
+      "train_support": 61,
+      "eval_support": 6,
+      "known_negative": 3931,
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "id": "146",
+      "name": "отрезки. Измерение отрезков",
+      "train_support": 44,
+      "eval_support": 3,
+      "known_negative": 3935,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "id": "147",
+      "name": "углы. Измерение углов",
+      "train_support": 31,
+      "eval_support": 8,
+      "known_negative": 3925,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "148",
+      "name": "Середина отрезка",
+      "train_support": 6,
+      "eval_support": 0,
+      "known_negative": 3938,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "149",
+      "name": "сумма расстояний",
+      "train_support": 4,
+      "eval_support": 1,
+      "known_negative": 3937,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "150",
+      "name": "построение отрезков с помощью линейки",
+      "train_support": 8,
+      "eval_support": 0,
+      "known_negative": 3938,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "151",
+      "name": "длины отрезков и их отношения",
+      "train_support": 4,
+      "eval_support": 1,
+      "known_negative": 3937,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "152",
+      "name": "Смежные углы",
+      "train_support": 22,
+      "eval_support": 4,
+      "known_negative": 3929,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "153",
+      "name": "вертикальные углы",
+      "train_support": 23,
+      "eval_support": 1,
+      "known_negative": 3932,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "155",
+      "name": "биссектриса угла",
+      "train_support": 1,
+      "eval_support": 2,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "156",
+      "name": "угол между стрелками часов",
+      "train_support": 5,
+      "eval_support": 1,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "157",
+      "name": "измерения угла с помощью угольника",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3937,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "158",
+      "name": "точки на прямой",
+      "train_support": 3,
+      "eval_support": 0,
+      "known_negative": 3938,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "159",
+      "name": "треугольники. Признаки равенства треугольников",
+      "train_support": 36,
+      "eval_support": 7,
+      "known_negative": 3895,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "160",
+      "name": "Первый признак равенства треугольников",
+      "train_support": 28,
+      "eval_support": 5,
+      "known_negative": 3929,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "161",
+      "name": "Второй признак равенства треугольников",
+      "train_support": 23,
+      "eval_support": 3,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "162",
+      "name": "третий признак равенства треугольников",
+      "train_support": 21,
+      "eval_support": 3,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "163",
+      "name": "равнобедренный треугольник. Свойства и признаки",
+      "train_support": 50,
+      "eval_support": 7,
+      "known_negative": 3927,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "164",
+      "name": "внешний угол треугольника",
+      "train_support": 3,
+      "eval_support": 2,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "165",
+      "name": "продление медианы за свою длину",
+      "train_support": 9,
+      "eval_support": 1,
+      "known_negative": 3933,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "166",
+      "name": "медиaна,биссектриса,высота треугольника",
+      "train_support": 32,
+      "eval_support": 2,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "168",
+      "name": "равенство прямоугольных треугольников",
+      "train_support": 20,
+      "eval_support": 0,
+      "known_negative": 3934,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "169",
+      "name": "свойства равных треугольников",
+      "train_support": 0,
+      "eval_support": 3,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "170",
+      "name": "параллельность и сумма углов треугольника",
+      "train_support": 23,
+      "eval_support": 1,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "171",
+      "name": "свойства и признаки параллельности двух прямых",
+      "train_support": 67,
+      "eval_support": 6,
+      "known_negative": 3934,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "172",
+      "name": "сумма углов треугольника",
+      "train_support": 47,
+      "eval_support": 5,
+      "known_negative": 3935,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "173",
+      "name": "свойства прямоугольного треугольника. ",
+      "train_support": 31,
+      "eval_support": 3,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "174",
+      "name": "медиана прямоугольного треугольника",
+      "train_support": 23,
+      "eval_support": 5,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "176",
+      "name": "Геометрические места точек (ГМТ)",
+      "train_support": 46,
+      "eval_support": 5,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "177",
+      "name": "свойства биссектрисы как ГМТ",
+      "train_support": 39,
+      "eval_support": 4,
+      "known_negative": 3932,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "178",
+      "name": "серединный перпендикуляр",
+      "train_support": 4,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "179",
+      "name": "Задачи на построение с помощью циркуля и линейки",
+      "train_support": 132,
+      "eval_support": 16,
+      "known_negative": 3925,
+      "precision": 0.5833333333333334,
+      "recall": 0.4375,
+      "f1": 0.5
+    },
+    {
+      "id": "180",
+      "name": "Окружность и круг",
+      "train_support": 141,
+      "eval_support": 23,
+      "known_negative": 3851,
+      "precision": 0.6296296296296297,
+      "recall": 0.7391304347826086,
+      "f1": 0.68
+    },
+    {
+      "id": "181",
+      "name": "Основные свойства и определения круга",
+      "train_support": 61,
+      "eval_support": 11,
+      "known_negative": 3907,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "182",
+      "name": "касательная к окружности",
+      "train_support": 97,
+      "eval_support": 6,
+      "known_negative": 3912,
+      "precision": 0.17647058823529413,
+      "recall": 0.5,
+      "f1": 0.2608695652173913
+    },
+    {
+      "id": "183",
+      "name": "неравенство треугольника",
+      "train_support": 96,
+      "eval_support": 13,
+      "known_negative": 3921,
+      "precision": 0.36363636363636365,
+      "recall": 0.3076923076923077,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "184",
+      "name": "смешанные задачи на арифметическую прогрессию повышенной сложности",
+      "train_support": 29,
+      "eval_support": 4,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "185",
+      "name": "смешанные задачи на геометрическую прогрессию повышенной сложности",
+      "train_support": 40,
+      "eval_support": 9,
+      "known_negative": 3935,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "id": "186",
+      "name": "системы уравнений",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3938,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "188",
+      "name": "системы нелинейных уравнений",
+      "train_support": 60,
+      "eval_support": 9,
+      "known_negative": 3938,
+      "precision": 0.8571428571428571,
+      "recall": 0.6666666666666666,
+      "f1": 0.75
+    },
+    {
+      "id": "189",
+      "name": "простейшие логарифмические уравнения",
+      "train_support": 40,
+      "eval_support": 7,
+      "known_negative": 3926,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "190",
+      "name": "смешанные логарифмические и показательные выражения и уравнения",
+      "train_support": 198,
+      "eval_support": 22,
+      "known_negative": 3911,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "191",
+      "name": "преобразование и вычисление алгебраических выражений",
+      "train_support": 11,
+      "eval_support": 1,
+      "known_negative": 3946,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "192",
+      "name": "упрощение иррациональных алгебраических выражений",
+      "train_support": 221,
+      "eval_support": 40,
+      "known_negative": 3890,
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "f1": 0.9876543209876543
+    },
+    {
+      "id": "194",
+      "name": "Механика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3378,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "195",
+      "name": "Кинематика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3861,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "196",
+      "name": "материальная точка. Система отсчета",
+      "train_support": 42,
+      "eval_support": 9,
+      "known_negative": 3993,
+      "precision": 1.0,
+      "recall": 0.2222222222222222,
+      "f1": 0.36363636363636365
+    },
+    {
+      "id": "197",
+      "name": "Путь. Перемещение",
+      "train_support": 70,
+      "eval_support": 9,
+      "known_negative": 3993,
+      "precision": 0.38461538461538464,
+      "recall": 0.5555555555555556,
+      "f1": 0.45454545454545453
+    },
+    {
+      "id": "198",
+      "name": "Равномерное движение",
+      "train_support": 45,
+      "eval_support": 10,
+      "known_negative": 3992,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "199",
+      "name": "Средняя скорость",
+      "train_support": 121,
+      "eval_support": 16,
+      "known_negative": 3986,
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931
+    },
+    {
+      "id": "200",
+      "name": "Относительность движения",
+      "train_support": 247,
+      "eval_support": 31,
+      "known_negative": 3971,
+      "precision": 0.8095238095238095,
+      "recall": 0.5483870967741935,
+      "f1": 0.6538461538461539
+    },
+    {
+      "id": "201",
+      "name": "Движение по окружности",
+      "train_support": 126,
+      "eval_support": 16,
+      "known_negative": 3986,
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931
+    },
+    {
+      "id": "202",
+      "name": "Баллистическое движение",
+      "train_support": 87,
+      "eval_support": 6,
+      "known_negative": 3991,
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1": 0.75
+    },
+    {
+      "id": "203",
+      "name": "Неравномерное движение",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "204",
+      "name": "равноускоренное движение",
+      "train_support": 231,
+      "eval_support": 31,
+      "known_negative": 3971,
+      "precision": 0.8928571428571429,
+      "recall": 0.8064516129032258,
+      "f1": 0.847457627118644
+    },
+    {
+      "id": "205",
+      "name": "свободное падение",
+      "train_support": 106,
+      "eval_support": 8,
+      "known_negative": 3994,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    {
+      "id": "206",
+      "name": "Движение тела,брошенного горизонтально",
+      "train_support": 10,
+      "eval_support": 1,
+      "known_negative": 3995,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "207",
+      "name": "Движение тела, брошенного под углом к горизонту",
+      "train_support": 42,
+      "eval_support": 4,
+      "known_negative": 3992,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "208",
+      "name": "Динамика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3845,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "209",
+      "name": "Закон сохранения энергии и импульса",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3858,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "210",
+      "name": "Закон сохранения импульса",
+      "train_support": 190,
+      "eval_support": 25,
+      "known_negative": 3977,
+      "precision": 0.8214285714285714,
+      "recall": 0.92,
+      "f1": 0.8679245283018868
+    },
+    {
+      "id": "211",
+      "name": "реактивное движение",
+      "train_support": 33,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "212",
+      "name": "Статика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3972,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "213",
+      "name": "Центр тяжести. Движение центра тяжести",
+      "train_support": 29,
+      "eval_support": 3,
+      "known_negative": 3999,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "214",
+      "name": "Работа. Мощность. Энергия",
+      "train_support": 47,
+      "eval_support": 7,
+      "known_negative": 3885,
+      "precision": 0.75,
+      "recall": 0.42857142857142855,
+      "f1": 0.5454545454545454
+    },
+    {
+      "id": "215",
+      "name": "Механическая работа",
+      "train_support": 188,
+      "eval_support": 21,
+      "known_negative": 3974,
+      "precision": 0.44,
+      "recall": 0.5238095238095238,
+      "f1": 0.4782608695652174
+    },
+    {
+      "id": "216",
+      "name": "КПД",
+      "train_support": 35,
+      "eval_support": 4,
+      "known_negative": 3991,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    {
+      "id": "217",
+      "name": "Кинетическая энергия",
+      "train_support": 106,
+      "eval_support": 13,
+      "known_negative": 3982,
+      "precision": 0.2222222222222222,
+      "recall": 0.15384615384615385,
+      "f1": 0.18181818181818182
+    },
+    {
+      "id": "218",
+      "name": "потенциальная энергия",
+      "train_support": 62,
+      "eval_support": 4,
+      "known_negative": 3991,
+      "precision": 0.14285714285714285,
+      "recall": 0.25,
+      "f1": 0.18181818181818182
+    },
+    {
+      "id": "219",
+      "name": "Энергия сжатой пружины",
+      "train_support": 59,
+      "eval_support": 4,
+      "known_negative": 3991,
+      "precision": 0.375,
+      "recall": 0.75,
+      "f1": 0.5
+    },
+    {
+      "id": "220",
+      "name": "Сохранение энергии при движении по окружности",
+      "train_support": 39,
+      "eval_support": 5,
+      "known_negative": 3990,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "221",
+      "name": "комплексные задачи на закон сохранения энергии и импульса",
+      "train_support": 115,
+      "eval_support": 19,
+      "known_negative": 3973,
+      "precision": 0.3181818181818182,
+      "recall": 0.3684210526315789,
+      "f1": 0.34146341463414637
+    },
+    {
+      "id": "222",
+      "name": "столкновения",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3973,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "223",
+      "name": "упругий удар",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3975,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "224",
+      "name": "непругий удар",
+      "train_support": 8,
+      "eval_support": 1,
+      "known_negative": 3975,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "225",
+      "name": "нецентральный удар",
+      "train_support": 13,
+      "eval_support": 1,
+      "known_negative": 3975,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "226",
+      "name": "мощность",
+      "train_support": 111,
+      "eval_support": 16,
+      "known_negative": 3979,
+      "precision": 0.875,
+      "recall": 0.4375,
+      "f1": 0.5833333333333334
+    },
+    {
+      "id": "227",
+      "name": "Закон сохранения энергии",
+      "train_support": 215,
+      "eval_support": 22,
+      "known_negative": 3973,
+      "precision": 0.3,
+      "recall": 0.2727272727272727,
+      "f1": 0.2857142857142857
+    },
+    {
+      "id": "228",
+      "name": "Молекулярная физика и термодинамика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3802,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "229",
+      "name": "Молекулярно - кинетическая теория (МКТ)",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3950,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "230",
+      "name": "давление вещества. Уравнения состояния вещества",
+      "train_support": 52,
+      "eval_support": 8,
+      "known_negative": 3994,
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "231",
+      "name": "характерные скорости молекул",
+      "train_support": 60,
+      "eval_support": 9,
+      "known_negative": 3993,
+      "precision": 0.8333333333333334,
+      "recall": 0.5555555555555556,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "232",
+      "name": "Изопроцессы",
+      "train_support": 66,
+      "eval_support": 4,
+      "known_negative": 3998,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "233",
+      "name": "графики в задачах термодинамики",
+      "train_support": 17,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "234",
+      "name": "уравнение Менделеева Клайперона",
+      "train_support": 108,
+      "eval_support": 18,
+      "known_negative": 3984,
+      "precision": 0.6,
+      "recall": 0.6666666666666666,
+      "f1": 0.631578947368421
+    },
+    {
+      "id": "235",
+      "name": "Закон Дальтона. Смеси газов",
+      "train_support": 24,
+      "eval_support": 1,
+      "known_negative": 4001,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "236",
+      "name": "Термодинамика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3859,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "237",
+      "name": "внутренняя энергия веществ",
+      "train_support": 50,
+      "eval_support": 7,
+      "known_negative": 3995,
+      "precision": 0.5,
+      "recall": 0.7142857142857143,
+      "f1": 0.5882352941176471
+    },
+    {
+      "id": "238",
+      "name": "виды теплопередачи",
+      "train_support": 118,
+      "eval_support": 18,
+      "known_negative": 3984,
+      "precision": 0.6111111111111112,
+      "recall": 0.6111111111111112,
+      "f1": 0.6111111111111112
+    },
+    {
+      "id": "239",
+      "name": "измерение количества теплоты",
+      "train_support": 146,
+      "eval_support": 19,
+      "known_negative": 3983,
+      "precision": 0.7272727272727273,
+      "recall": 0.8421052631578947,
+      "f1": 0.7804878048780488
+    },
+    {
+      "id": "240",
+      "name": "плавление и отвердевание",
+      "train_support": 184,
+      "eval_support": 14,
+      "known_negative": 3988,
+      "precision": 0.7272727272727273,
+      "recall": 0.5714285714285714,
+      "f1": 0.64
+    },
+    {
+      "id": "241",
+      "name": "испарение и кипение",
+      "train_support": 185,
+      "eval_support": 11,
+      "known_negative": 3991,
+      "precision": 0.6,
+      "recall": 0.2727272727272727,
+      "f1": 0.375
+    },
+    {
+      "id": "242",
+      "name": "теплота сгорания топлива",
+      "train_support": 86,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    },
+    {
+      "id": "243",
+      "name": "уравнение теплового баланса",
+      "train_support": 110,
+      "eval_support": 8,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "244",
+      "name": "тепловое расширение тел",
+      "train_support": 51,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "245",
+      "name": "внутренняя энергия идеального газа",
+      "train_support": 22,
+      "eval_support": 3,
+      "known_negative": 3999,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "246",
+      "name": "Работа идеального газа",
+      "train_support": 29,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "247",
+      "name": "Первое начало термодинамики",
+      "train_support": 74,
+      "eval_support": 7,
+      "known_negative": 3995,
+      "precision": 0.25,
+      "recall": 0.5714285714285714,
+      "f1": 0.34782608695652173
+    },
+    {
+      "id": "248",
+      "name": "теплоемкость газа",
+      "train_support": 16,
+      "eval_support": 3,
+      "known_negative": 3999,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "249",
+      "name": "тепловые двигатели",
+      "train_support": 117,
+      "eval_support": 10,
+      "known_negative": 3992,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727273
+    },
+    {
+      "id": "250",
+      "name": "количество вещества.Дискретное состояние вещества",
+      "train_support": 49,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857142857142857
+    },
+    {
+      "id": "251",
+      "name": "Цикл Карно",
+      "train_support": 15,
+      "eval_support": 1,
+      "known_negative": 4001,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "252",
+      "name": "Влажность",
+      "train_support": 104,
+      "eval_support": 20,
+      "known_negative": 3982,
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1": 0.8235294117647058
+    },
+    {
+      "id": "253",
+      "name": "гидростатика и влажность",
+      "train_support": 12,
+      "eval_support": 0,
+      "known_negative": 4002,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "254",
+      "name": "поверхностное натяжение",
+      "train_support": 34,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857142857142857
+    },
+    {
+      "id": "255",
+      "name": "гидростатика и газовые законы",
+      "train_support": 32,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "256",
+      "name": "тригонометрические уравнения и неравенства",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3805,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "257",
+      "name": "простейшие тригонометрические уравнения",
+      "train_support": 58,
+      "eval_support": 10,
+      "known_negative": 3921,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1": 0.8333333333333334
+    },
+    {
+      "id": "258",
+      "name": "Решение тригонометрических уравнений, отличающихся от простейших",
+      "train_support": 117,
+      "eval_support": 11,
+      "known_negative": 3886,
+      "precision": 0.5789473684210527,
+      "recall": 1.0,
+      "f1": 0.7333333333333333
+    },
+    {
+      "id": "259",
+      "name": "Решение систем тригонометрических уравнений",
+      "train_support": 64,
+      "eval_support": 8,
+      "known_negative": 3923,
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1": 0.9411764705882353
+    },
+    {
+      "id": "260",
+      "name": "Примеры решения более сложных тригонометрических уравнений и их систем",
+      "train_support": 57,
+      "eval_support": 6,
+      "known_negative": 3925,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "261",
+      "name": "Тригонометрические уравнения с параметрами",
+      "train_support": 70,
+      "eval_support": 9,
+      "known_negative": 3922,
+      "precision": 0.375,
+      "recall": 0.3333333333333333,
+      "f1": 0.35294117647058826
+    },
+    {
+      "id": "262",
+      "name": "Решение тригонометрических неравенств",
+      "train_support": 115,
+      "eval_support": 16,
+      "known_negative": 3883,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "263",
+      "name": "Простейшие упражнения вида sin(ax+b)=c, tg (ax+b)=c, cos²(ax+b)=c",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "264",
+      "name": "Уравнения, сводящиеся к квадратным",
+      "train_support": 24,
+      "eval_support": 5,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "265",
+      "name": "Уравнение вида sin(αx) ± cos(βx)=0, sin(αx) ± cos(βx)=0",
+      "train_support": 17,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "266",
+      "name": "Уравнения, содержащие выражения вида sin(αx) ± cos(βx)",
+      "train_support": 13,
+      "eval_support": 2,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "267",
+      "name": "Уравнения на применение формул для sin(α + β ), cos(α + β )",
+      "train_support": 19,
+      "eval_support": 2,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "268",
+      "name": "Уравнения на применение формул преобразования суммы в произведение",
+      "train_support": 28,
+      "eval_support": 2,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "269",
+      "name": "Уравнения, содержащие квадраты синусов и косинусов",
+      "train_support": 9,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "270",
+      "name": "Уравнения на применение формул преобразования произведения в сумму",
+      "train_support": 15,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "271",
+      "name": "Уравнения, содержащие выражения вида  sin⁴(αx)  ±  cos⁴(αx)",
+      "train_support": 15,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "272",
+      "name": "Уравнения на применение формул cos2x=(cosx-sinx)(cosx+sinx), sin²x=(1-cosx)(1+cosx), cos²x=(1-sinx)(1+sinx)",
+      "train_support": 7,
+      "eval_support": 2,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "273",
+      "name": "Уравнения на применение формулы 1 ± sin2x=(sinx ± cosx)²",
+      "train_support": 8,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "274",
+      "name": "Уравнения, решаемые с помощью разложения на множители",
+      "train_support": 46,
+      "eval_support": 4,
+      "known_negative": 3916,
+      "precision": 0.2222222222222222,
+      "recall": 0.5,
+      "f1": 0.3076923076923077
+    },
+    {
+      "id": "275",
+      "name": "Однородные уравнения 2-го порядка",
+      "train_support": 12,
+      "eval_support": 0,
+      "known_negative": 3920,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "276",
+      "name": "Уравнения вида Asin(αx)+Bcos(αx)=C",
+      "train_support": 7,
+      "eval_support": 2,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "277",
+      "name": "Уравнения, содержащие выражения вида ctg(αx) ± tg(αx)\n  ",
+      "train_support": 13,
+      "eval_support": 0,
+      "known_negative": 3920,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "278",
+      "name": "Уравнение с тангенсами и котангенсами\n",
+      "train_support": 12,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "279",
+      "name": "Разные задачи",
+      "train_support": 14,
+      "eval_support": 0,
+      "known_negative": 3920,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "280",
+      "name": "Уравнения, содержащие выражения вида cos³(αx) ± sin³(αx)",
+      "train_support": 11,
+      "eval_support": 3,
+      "known_negative": 3917,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "281",
+      "name": "Уравнения, сводящиеся к кубическим, и однородные уравнения 3-го порядка",
+      "train_support": 5,
+      "eval_support": 1,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "282",
+      "name": "Уравнения, решаемые с помощью оценок для sinx и cosx",
+      "train_support": 5,
+      "eval_support": 3,
+      "known_negative": 3917,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "283",
+      "name": "механика жидкости и газа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3885,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "284",
+      "name": "Закон Паскаля",
+      "train_support": 73,
+      "eval_support": 4,
+      "known_negative": 3998,
+      "precision": 0.2222222222222222,
+      "recall": 0.5,
+      "f1": 0.3076923076923077
+    },
+    {
+      "id": "285",
+      "name": "давление жидкости",
+      "train_support": 144,
+      "eval_support": 10,
+      "known_negative": 3992,
+      "precision": 0.36363636363636365,
+      "recall": 0.4,
+      "f1": 0.38095238095238093
+    },
+    {
+      "id": "286",
+      "name": "Сообщающиеся сосуды",
+      "train_support": 88,
+      "eval_support": 13,
+      "known_negative": 3989,
+      "precision": 0.7,
+      "recall": 0.5384615384615384,
+      "f1": 0.6086956521739131
+    },
+    {
+      "id": "287",
+      "name": "атмосферные давление",
+      "train_support": 97,
+      "eval_support": 13,
+      "known_negative": 3989,
+      "precision": 0.7777777777777778,
+      "recall": 0.5384615384615384,
+      "f1": 0.6363636363636364
+    },
+    {
+      "id": "288",
+      "name": "Закон Архимеда.Плавание тел",
+      "train_support": 391,
+      "eval_support": 44,
+      "known_negative": 3958,
+      "precision": 0.660377358490566,
+      "recall": 0.7954545454545454,
+      "f1": 0.7216494845360825
+    },
+    {
+      "id": "289",
+      "name": "течение идеальной жидкости",
+      "train_support": 15,
+      "eval_support": 1,
+      "known_negative": 4001,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "290",
+      "name": "потенциальная энергия столба жидкости",
+      "train_support": 11,
+      "eval_support": 1,
+      "known_negative": 4001,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "291",
+      "name": "жидкость в сосуде, двигающимся с ускорением",
+      "train_support": 11,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "292",
+      "name": "стационарное течение жидкости",
+      "train_support": 13,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "293",
+      "name": "Электромагнетизм",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3581,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "294",
+      "name": "Электростатика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3888,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "295",
+      "name": "Постоянный ток",
+      "train_support": 19,
+      "eval_support": 2,
+      "known_negative": 3835,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "296",
+      "name": "Магнетизм",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3897,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "297",
+      "name": "геометрическая оптика",
+      "train_support": 240,
+      "eval_support": 32,
+      "known_negative": 3902,
+      "precision": 0.8709677419354839,
+      "recall": 0.84375,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "298",
+      "name": "Оптика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3879,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "299",
+      "name": "магнитные явления",
+      "train_support": 157,
+      "eval_support": 12,
+      "known_negative": 3990,
+      "precision": 0.47058823529411764,
+      "recall": 0.6666666666666666,
+      "f1": 0.5517241379310345
+    },
+    {
+      "id": "300",
+      "name": "прямолинейное распространение света",
+      "train_support": 60,
+      "eval_support": 8,
+      "known_negative": 3962,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693
+    },
+    {
+      "id": "301",
+      "name": "отражение света",
+      "train_support": 142,
+      "eval_support": 20,
+      "known_negative": 3950,
+      "precision": 0.7272727272727273,
+      "recall": 0.8,
+      "f1": 0.7619047619047619
+    },
+    {
+      "id": "302",
+      "name": "преломление света",
+      "train_support": 117,
+      "eval_support": 13,
+      "known_negative": 3932,
+      "precision": 0.7777777777777778,
+      "recall": 0.5384615384615384,
+      "f1": 0.6363636363636364
+    },
+    {
+      "id": "303",
+      "name": "Линзы и другие оптические системы",
+      "train_support": 72,
+      "eval_support": 16,
+      "known_negative": 3933,
+      "precision": 0.7894736842105263,
+      "recall": 0.9375,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "305",
+      "name": "Сила Лоренца",
+      "train_support": 76,
+      "eval_support": 7,
+      "known_negative": 3985,
+      "precision": 0.5,
+      "recall": 0.7142857142857143,
+      "f1": 0.5882352941176471
+    },
+    {
+      "id": "306",
+      "name": "магнитные силы",
+      "train_support": 62,
+      "eval_support": 10,
+      "known_negative": 3975,
+      "precision": 0.6363636363636364,
+      "recall": 0.7,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "307",
+      "name": "Электромагнитная индукция",
+      "train_support": 290,
+      "eval_support": 42,
+      "known_negative": 3960,
+      "precision": 0.5306122448979592,
+      "recall": 0.6190476190476191,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "308",
+      "name": "самоиндукция",
+      "train_support": 101,
+      "eval_support": 22,
+      "known_negative": 3980,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "309",
+      "name": "Механические колебания и волны",
+      "train_support": 38,
+      "eval_support": 7,
+      "known_negative": 3967,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
+    },
+    {
+      "id": "310",
+      "name": "колебания материальной точки",
+      "train_support": 16,
+      "eval_support": 5,
+      "known_negative": 3990,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "313",
+      "name": "колебательные механические системы",
+      "train_support": 103,
+      "eval_support": 6,
+      "known_negative": 3989,
+      "precision": 0.45454545454545453,
+      "recall": 0.8333333333333334,
+      "f1": 0.5882352941176471
+    },
+    {
+      "id": "314",
+      "name": "волны",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3978,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "315",
+      "name": "Электромагнитные колебания и волны",
+      "train_support": 97,
+      "eval_support": 17,
+      "known_negative": 3967,
+      "precision": 0.6666666666666666,
+      "recall": 0.7058823529411765,
+      "f1": 0.6857142857142857
+    },
+    {
+      "id": "316",
+      "name": "свободные колебания в электромагнитном контуре",
+      "train_support": 74,
+      "eval_support": 7,
+      "known_negative": 3978,
+      "precision": 0.7777777777777778,
+      "recall": 1.0,
+      "f1": 0.875
+    },
+    {
+      "id": "317",
+      "name": "вынужденные колебания. переменный ток",
+      "train_support": 42,
+      "eval_support": 3,
+      "known_negative": 3982,
+      "precision": 0.2857142857142857,
+      "recall": 0.6666666666666666,
+      "f1": 0.4
+    },
+    {
+      "id": "318",
+      "name": "трансформатор",
+      "train_support": 11,
+      "eval_support": 2,
+      "known_negative": 3983,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "319",
+      "name": "электромагнитные волны",
+      "train_support": 24,
+      "eval_support": 4,
+      "known_negative": 3979,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "320",
+      "name": "прохождение света через плоскопараллельную пластину",
+      "train_support": 3,
+      "eval_support": 1,
+      "known_negative": 3956,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "321",
+      "name": "построения в линзе",
+      "train_support": 77,
+      "eval_support": 4,
+      "known_negative": 3937,
+      "precision": 0.3,
+      "recall": 0.75,
+      "f1": 0.42857142857142855
+    },
+    {
+      "id": "322",
+      "name": "формула тонкой линзы",
+      "train_support": 72,
+      "eval_support": 4,
+      "known_negative": 3937,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "323",
+      "name": "другие оптические системы",
+      "train_support": 30,
+      "eval_support": 3,
+      "known_negative": 3938,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "324",
+      "name": "Элементы волновой оптики",
+      "train_support": 44,
+      "eval_support": 4,
+      "known_negative": 3979,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "325",
+      "name": "формула распространения волн",
+      "train_support": 20,
+      "eval_support": 3,
+      "known_negative": 3992,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "id": "326",
+      "name": "интерференция",
+      "train_support": 35,
+      "eval_support": 6,
+      "known_negative": 3992,
+      "precision": 0.6,
+      "recall": 0.5,
+      "f1": 0.5454545454545454
+    },
+    {
+      "id": "327",
+      "name": "дифракция",
+      "train_support": 36,
+      "eval_support": 5,
+      "known_negative": 3993,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1": 0.8333333333333334
+    },
+    {
+      "id": "328",
+      "name": "оптические явления",
+      "train_support": 57,
+      "eval_support": 11,
+      "known_negative": 3959,
+      "precision": 0.5,
+      "recall": 0.2727272727272727,
+      "f1": 0.35294117647058826
+    },
+    {
+      "id": "329",
+      "name": "дисперсия",
+      "train_support": 20,
+      "eval_support": 4,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "330",
+      "name": "смешанные качественные задачи по гидростатике",
+      "train_support": 20,
+      "eval_support": 3,
+      "known_negative": 3999,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "331",
+      "name": "Давление твердых тел",
+      "train_support": 77,
+      "eval_support": 8,
+      "known_negative": 3994,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875
+    },
+    {
+      "id": "332",
+      "name": "Гидродинамика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3999,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "333",
+      "name": "изменение цвета при взаимодействии со световым лучом",
+      "train_support": 42,
+      "eval_support": 6,
+      "known_negative": 3992,
+      "precision": 0.375,
+      "recall": 0.5,
+      "f1": 0.42857142857142855
+    },
+    {
+      "id": "334",
+      "name": "сила Ампера",
+      "train_support": 23,
+      "eval_support": 7,
+      "known_negative": 3985,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "335",
+      "name": "Контур с током в магнитном поле",
+      "train_support": 6,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "336",
+      "name": "гидравлический пресс",
+      "train_support": 19,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "337",
+      "name": "проводники и заряженные частицы в магнитном поле",
+      "train_support": 25,
+      "eval_support": 3,
+      "known_negative": 3989,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "338",
+      "name": "механические волны.звук",
+      "train_support": 117,
+      "eval_support": 14,
+      "known_negative": 3981,
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1": 0.8
+    },
+    {
+      "id": "339",
+      "name": "передача информации с помощью электромагнитных волн",
+      "train_support": 7,
+      "eval_support": 1,
+      "known_negative": 3980,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "340",
+      "name": "передача и прём радиоволн",
+      "train_support": 7,
+      "eval_support": 1,
+      "known_negative": 3980,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "343",
+      "name": "изменение уровня жидкости",
+      "train_support": 39,
+      "eval_support": 9,
+      "known_negative": 3993,
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1": 0.875
+    },
+    {
+      "id": "344",
+      "name": "статика с элементами гидростатики",
+      "train_support": 56,
+      "eval_support": 10,
+      "known_negative": 3992,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "345",
+      "name": "Современная Физика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3884,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "346",
+      "name": "Основы теории относительности",
+      "train_support": 22,
+      "eval_support": 7,
+      "known_negative": 3983,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "347",
+      "name": "Относительность времени и расстояния",
+      "train_support": 17,
+      "eval_support": 4,
+      "known_negative": 3991,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "348",
+      "name": "Релятивисткое сложение скоростей",
+      "train_support": 14,
+      "eval_support": 3,
+      "known_negative": 3992,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "id": "349",
+      "name": "взаимосвязь массы и энергии",
+      "train_support": 22,
+      "eval_support": 4,
+      "known_negative": 3991,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "350",
+      "name": "кинетическая энергия релятивисткой частицы",
+      "train_support": 22,
+      "eval_support": 5,
+      "known_negative": 3990,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "351",
+      "name": "Импульс. Связь энергии и импульса",
+      "train_support": 9,
+      "eval_support": 0,
+      "known_negative": 3995,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "352",
+      "name": "Квантово-оптические явления",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3962,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "353",
+      "name": "Энергия и импульс фотонов",
+      "train_support": 51,
+      "eval_support": 7,
+      "known_negative": 3995,
+      "precision": 0.375,
+      "recall": 0.8571428571428571,
+      "f1": 0.5217391304347826
+    },
+    {
+      "id": "354",
+      "name": "Давление фотонов",
+      "train_support": 21,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "355",
+      "name": "фотоэффект",
+      "train_support": 167,
+      "eval_support": 18,
+      "known_negative": 3984,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714
+    },
+    {
+      "id": "356",
+      "name": "Атомная физика",
+      "train_support": 48,
+      "eval_support": 2,
+      "known_negative": 3978,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "357",
+      "name": "строение атома. Теория атома Бора",
+      "train_support": 94,
+      "eval_support": 8,
+      "known_negative": 3992,
+      "precision": 0.2727272727272727,
+      "recall": 0.375,
+      "f1": 0.3157894736842105
+    },
+    {
+      "id": "358",
+      "name": "строение атома водорода",
+      "train_support": 77,
+      "eval_support": 11,
+      "known_negative": 3989,
+      "precision": 0.5,
+      "recall": 0.2727272727272727,
+      "f1": 0.35294117647058826
+    },
+    {
+      "id": "359",
+      "name": "Ядерная физика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3967,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "360",
+      "name": "Элементы строения ядра атома",
+      "train_support": 19,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "361",
+      "name": "Радиоактивность",
+      "train_support": 121,
+      "eval_support": 11,
+      "known_negative": 3991,
+      "precision": 0.5384615384615384,
+      "recall": 0.6363636363636364,
+      "f1": 0.5833333333333334
+    },
+    {
+      "id": "362",
+      "name": "Закон радиоактивного распада",
+      "train_support": 13,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "363",
+      "name": "Ядерные реакции",
+      "train_support": 72,
+      "eval_support": 6,
+      "known_negative": 3996,
+      "precision": 0.45454545454545453,
+      "recall": 0.8333333333333334,
+      "f1": 0.5882352941176471
+    },
+    {
+      "id": "364",
+      "name": "Дефект массы, энергия связи",
+      "train_support": 25,
+      "eval_support": 1,
+      "known_negative": 4001,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "365",
+      "name": "Законы сохранения в ядерных реакциях",
+      "train_support": 52,
+      "eval_support": 6,
+      "known_negative": 3996,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1": 0.5
+    },
+    {
+      "id": "366",
+      "name": "атомные спектры",
+      "train_support": 31,
+      "eval_support": 3,
+      "known_negative": 3997,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "367",
+      "name": "лазеры. Квантовая физика",
+      "train_support": 27,
+      "eval_support": 5,
+      "known_negative": 3995,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "368",
+      "name": "Астрономия и Астрофизика",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3986,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "369",
+      "name": "солнечная система",
+      "train_support": 26,
+      "eval_support": 6,
+      "known_negative": 3994,
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "id": "370",
+      "name": "размеры солнечной системы",
+      "train_support": 7,
+      "eval_support": 1,
+      "known_negative": 3995,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "371",
+      "name": "солнце",
+      "train_support": 10,
+      "eval_support": 1,
+      "known_negative": 3995,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "372",
+      "name": "Звёзды, галактики, вселенная",
+      "train_support": 25,
+      "eval_support": 4,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "373",
+      "name": "разнообразие звёзд",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "374",
+      "name": "судьбы звёзд",
+      "train_support": 6,
+      "eval_support": 0,
+      "known_negative": 3998,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "375",
+      "name": "галактики",
+      "train_support": 5,
+      "eval_support": 2,
+      "known_negative": 3996,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "376",
+      "name": "происхождение и эволюция систем",
+      "train_support": 2,
+      "eval_support": 1,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "377",
+      "name": "Заряд. Дискретность заряда. Закон сохранения заряда",
+      "train_support": 8,
+      "eval_support": 5,
+      "known_negative": 3982,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "378",
+      "name": "Закон Кулона",
+      "train_support": 153,
+      "eval_support": 16,
+      "known_negative": 3986,
+      "precision": 0.6153846153846154,
+      "recall": 0.5,
+      "f1": 0.5517241379310345
+    },
+    {
+      "id": "379",
+      "name": "напряженность электростатического поля",
+      "train_support": 93,
+      "eval_support": 18,
+      "known_negative": 3984,
+      "precision": 0.6842105263157895,
+      "recall": 0.7222222222222222,
+      "f1": 0.7027027027027027
+    },
+    {
+      "id": "380",
+      "name": "потенциал поля. Работа сил электрического поля. Энергия поля",
+      "train_support": 166,
+      "eval_support": 22,
+      "known_negative": 3980,
+      "precision": 0.5666666666666667,
+      "recall": 0.7727272727272727,
+      "f1": 0.6538461538461539
+    },
+    {
+      "id": "381",
+      "name": "Проводники в электростатическом поле",
+      "train_support": 53,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "382",
+      "name": "диэлектрики в электростатическом поле",
+      "train_support": 28,
+      "eval_support": 4,
+      "known_negative": 3998,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "383",
+      "name": "Электроемкость.Конденсаторы",
+      "train_support": 202,
+      "eval_support": 30,
+      "known_negative": 3972,
+      "precision": 0.8695652173913043,
+      "recall": 0.6666666666666666,
+      "f1": 0.7547169811320755
+    },
+    {
+      "id": "384",
+      "name": "Электрический ток.Сила тока. Плотность тока",
+      "train_support": 175,
+      "eval_support": 11,
+      "known_negative": 3986,
+      "precision": 0.18181818181818182,
+      "recall": 0.18181818181818182,
+      "f1": 0.18181818181818182
+    },
+    {
+      "id": "385",
+      "name": "сопротивление проводников",
+      "train_support": 57,
+      "eval_support": 7,
+      "known_negative": 3973,
+      "precision": 0.3333333333333333,
+      "recall": 0.14285714285714285,
+      "f1": 0.2
+    },
+    {
+      "id": "386",
+      "name": "закон ома для участка цепи",
+      "train_support": 125,
+      "eval_support": 22,
+      "known_negative": 3978,
+      "precision": 0.4,
+      "recall": 0.09090909090909091,
+      "f1": 0.14814814814814814
+    },
+    {
+      "id": "387",
+      "name": "электроизмерительные приборы",
+      "train_support": 37,
+      "eval_support": 3,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "388",
+      "name": "Работа и мощность тока",
+      "train_support": 360,
+      "eval_support": 40,
+      "known_negative": 3960,
+      "precision": 0.723404255319149,
+      "recall": 0.85,
+      "f1": 0.7816091954022989
+    },
+    {
+      "id": "389",
+      "name": "Электродвижущая сила. Закон Ома для участка цепи. ",
+      "train_support": 208,
+      "eval_support": 34,
+      "known_negative": 3966,
+      "precision": 0.7931034482758621,
+      "recall": 0.6764705882352942,
+      "f1": 0.7301587301587301
+    },
+    {
+      "id": "390",
+      "name": "Закон Кирхгофа",
+      "train_support": 13,
+      "eval_support": 2,
+      "known_negative": 3998,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "391",
+      "name": "электрический ток в металлах",
+      "train_support": 26,
+      "eval_support": 2,
+      "known_negative": 3992,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "392",
+      "name": "Электролиз",
+      "train_support": 28,
+      "eval_support": 7,
+      "known_negative": 3987,
+      "precision": 0.75,
+      "recall": 0.42857142857142855,
+      "f1": 0.5454545454545454
+    },
+    {
+      "id": "393",
+      "name": "Электрический ток в газах, вакууме, проводниках",
+      "train_support": 32,
+      "eval_support": 5,
+      "known_negative": 3989,
+      "precision": 0.3333333333333333,
+      "recall": 0.2,
+      "f1": 0.25
+    },
+    {
+      "id": "394",
+      "name": "конденсатор в цепи постоянного тока",
+      "train_support": 19,
+      "eval_support": 3,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "395",
+      "name": "Удельное сопротивление проводника",
+      "train_support": 41,
+      "eval_support": 3,
+      "known_negative": 3990,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "id": "396",
+      "name": "последовательное сопротивление проводников",
+      "train_support": 89,
+      "eval_support": 15,
+      "known_negative": 3978,
+      "precision": 0.35,
+      "recall": 0.4666666666666667,
+      "f1": 0.4
+    },
+    {
+      "id": "397",
+      "name": "параллельное сопротивление проводников",
+      "train_support": 97,
+      "eval_support": 13,
+      "known_negative": 3980,
+      "precision": 0.23529411764705882,
+      "recall": 0.3076923076923077,
+      "f1": 0.26666666666666666
+    },
+    {
+      "id": "398",
+      "name": "Электрический ток",
+      "train_support": 9,
+      "eval_support": 1,
+      "known_negative": 3988,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "399",
+      "name": "сила тока",
+      "train_support": 8,
+      "eval_support": 2,
+      "known_negative": 3987,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "400",
+      "name": "Электризация тел",
+      "train_support": 87,
+      "eval_support": 15,
+      "known_negative": 3982,
+      "precision": 0.7692307692307693,
+      "recall": 0.6666666666666666,
+      "f1": 0.7142857142857143
+    },
+    {
+      "id": "401",
+      "name": "Электрический ток в различных средах",
+      "train_support": 84,
+      "eval_support": 6,
+      "known_negative": 3980,
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6
+    },
+    {
+      "id": "402",
+      "name": "Законы Ньютона. Равнодействующая сила",
+      "train_support": 87,
+      "eval_support": 12,
+      "known_negative": 3979,
+      "precision": 0.3333333333333333,
+      "recall": 0.08333333333333333,
+      "f1": 0.13333333333333333
+    },
+    {
+      "id": "403",
+      "name": "Сила упругости",
+      "train_support": 59,
+      "eval_support": 11,
+      "known_negative": 3989,
+      "precision": 0.75,
+      "recall": 0.8181818181818182,
+      "f1": 0.782608695652174
+    },
+    {
+      "id": "404",
+      "name": "Вес и невесомость",
+      "train_support": 72,
+      "eval_support": 14,
+      "known_negative": 3988,
+      "precision": 0.5833333333333334,
+      "recall": 0.5,
+      "f1": 0.5384615384615384
+    },
+    {
+      "id": "405",
+      "name": "Сила трения ",
+      "train_support": 129,
+      "eval_support": 18,
+      "known_negative": 3984,
+      "precision": 0.7333333333333333,
+      "recall": 0.6111111111111112,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "406",
+      "name": "наклонная плоскость",
+      "train_support": 25,
+      "eval_support": 4,
+      "known_negative": 3998,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "407",
+      "name": "Движение связанных сил",
+      "train_support": 48,
+      "eval_support": 3,
+      "known_negative": 3983,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "408",
+      "name": "Блоки",
+      "train_support": 79,
+      "eval_support": 10,
+      "known_negative": 3989,
+      "precision": 0.8,
+      "recall": 0.4,
+      "f1": 0.5333333333333333
+    },
+    {
+      "id": "409",
+      "name": "движение под действием сил упругости",
+      "train_support": 14,
+      "eval_support": 2,
+      "known_negative": 3989,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "410",
+      "name": "динамика Движения по окружности",
+      "train_support": 92,
+      "eval_support": 14,
+      "known_negative": 3988,
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1": 0.9285714285714286
+    },
+    {
+      "id": "411",
+      "name": "закон гравитации",
+      "train_support": 111,
+      "eval_support": 8,
+      "known_negative": 3994,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    {
+      "id": "412",
+      "name": "неинерциальные системы отсчета",
+      "train_support": 16,
+      "eval_support": 0,
+      "known_negative": 4002,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "413",
+      "name": "Динамика прямолинейного движения",
+      "train_support": 134,
+      "eval_support": 21,
+      "known_negative": 3981,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1": 0.5
+    },
+    {
+      "id": "414",
+      "name": "лабораторные работы, теплота",
+      "train_support": 38,
+      "eval_support": 5,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "415",
+      "name": "рычаги",
+      "train_support": 57,
+      "eval_support": 11,
+      "known_negative": 3991,
+      "precision": 0.3333333333333333,
+      "recall": 0.09090909090909091,
+      "f1": 0.14285714285714285
+    },
+    {
+      "id": "416",
+      "name": "момент силы. Правило моментов",
+      "train_support": 68,
+      "eval_support": 6,
+      "known_negative": 3996,
+      "precision": 0.375,
+      "recall": 0.5,
+      "f1": 0.42857142857142855
+    },
+    {
+      "id": "417",
+      "name": "силы упругости. Системы пружин",
+      "train_support": 22,
+      "eval_support": 0,
+      "known_negative": 4002,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "418",
+      "name": "Взаимодействие тел",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3987,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "419",
+      "name": "масса. плотность",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3987,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "421",
+      "name": "плотность тела. Объем тела",
+      "train_support": 126,
+      "eval_support": 10,
+      "known_negative": 3987,
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1": 0.8181818181818182
+    },
+    {
+      "id": "422",
+      "name": "однородные тела",
+      "train_support": 40,
+      "eval_support": 5,
+      "known_negative": 3987,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    },
+    {
+      "id": "424",
+      "name": "кинематические связи",
+      "train_support": 7,
+      "eval_support": 0,
+      "known_negative": 4002,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "425",
+      "name": "показательные и логарифмические неравенства",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3885,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "426",
+      "name": "простейшие показательные неравенства",
+      "train_support": 47,
+      "eval_support": 3,
+      "known_negative": 3930,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "427",
+      "name": "системы простейших показательных неравенств",
+      "train_support": 18,
+      "eval_support": 3,
+      "known_negative": 3930,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "id": "428",
+      "name": "более сложные показательные неравенства",
+      "train_support": 97,
+      "eval_support": 14,
+      "known_negative": 3919,
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333333333333333
+    },
+    {
+      "id": "429",
+      "name": "простые логарифмические уравнения",
+      "train_support": 69,
+      "eval_support": 5,
+      "known_negative": 3928,
+      "precision": 0.45454545454545453,
+      "recall": 1.0,
+      "f1": 0.625
+    },
+    {
+      "id": "430",
+      "name": "системы логарифмических неравенств",
+      "train_support": 9,
+      "eval_support": 1,
+      "known_negative": 3932,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "431",
+      "name": "сложные логарифмические неравенства",
+      "train_support": 115,
+      "eval_support": 15,
+      "known_negative": 3918,
+      "precision": 0.7894736842105263,
+      "recall": 1.0,
+      "f1": 0.8823529411764706
+    },
+    {
+      "id": "432",
+      "name": "системы сложных логарифмических неравенств",
+      "train_support": 22,
+      "eval_support": 7,
+      "known_negative": 3926,
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333333333333333
+    },
+    {
+      "id": "433",
+      "name": "Алгебраические неравенства и системы неравенств",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3910,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "434",
+      "name": "простые дробно-рациональные неравенства",
+      "train_support": 13,
+      "eval_support": 4,
+      "known_negative": 3943,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "435",
+      "name": "сложные дробно-рациональные неравенства",
+      "train_support": 98,
+      "eval_support": 6,
+      "known_negative": 3941,
+      "precision": 0.46153846153846156,
+      "recall": 1.0,
+      "f1": 0.631578947368421
+    },
+    {
+      "id": "436",
+      "name": "Системы алгебраических неравенств",
+      "train_support": 74,
+      "eval_support": 10,
+      "known_negative": 3937,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1": 0.9473684210526315
+    },
+    {
+      "id": "437",
+      "name": "простейшие тригонометрические неравенства",
+      "train_support": 56,
+      "eval_support": 7,
+      "known_negative": 3908,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "438",
+      "name": "сложные тригонометрические неравенства",
+      "train_support": 126,
+      "eval_support": 22,
+      "known_negative": 3893,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "439",
+      "name": "системы тригонометрических неравенств",
+      "train_support": 30,
+      "eval_support": 3,
+      "known_negative": 3912,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "441",
+      "name": "иррациональные неравенства и системы неравенств",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3926,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "442",
+      "name": "простые иррациональные неравенства",
+      "train_support": 46,
+      "eval_support": 7,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333334
+    },
+    {
+      "id": "443",
+      "name": "сложные иррациональные неравенства",
+      "train_support": 127,
+      "eval_support": 14,
+      "known_negative": 3933,
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1": 0.9655172413793104
+    },
+    {
+      "id": "444",
+      "name": "системы иррациональных неравенств",
+      "train_support": 7,
+      "eval_support": 0,
+      "known_negative": 3947,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "445",
+      "name": "модуль",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3922,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "446",
+      "name": "модуль числа",
+      "train_support": 38,
+      "eval_support": 5,
+      "known_negative": 3942,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "448",
+      "name": "неравенства с модулями",
+      "train_support": 40,
+      "eval_support": 2,
+      "known_negative": 3927,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "450",
+      "name": "сложные неравенства с модулем",
+      "train_support": 97,
+      "eval_support": 17,
+      "known_negative": 3928,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "451",
+      "name": "система неравенств с модулями",
+      "train_support": 10,
+      "eval_support": 1,
+      "known_negative": 3944,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "452",
+      "name": "целые неравенства",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3930,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "453",
+      "name": "квадратные и линейные неравенства",
+      "train_support": 66,
+      "eval_support": 8,
+      "known_negative": 3939,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693
+    },
+    {
+      "id": "454",
+      "name": "сложные целые неравенства",
+      "train_support": 83,
+      "eval_support": 9,
+      "known_negative": 3938,
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1": 0.75
+    },
+    {
+      "id": "455",
+      "name": "Закон сохранения энергии в механических и тепловых процессах",
+      "train_support": 30,
+      "eval_support": 3,
+      "known_negative": 3999,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "457",
+      "name": "Золотое правило механики",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "458",
+      "name": "плотность планет",
+      "train_support": 10,
+      "eval_support": 0,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "459",
+      "name": "Силы направлены под углом к горизонту",
+      "train_support": 8,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "460",
+      "name": "Движение системы без учета трения",
+      "train_support": 16,
+      "eval_support": 1,
+      "known_negative": 3998,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "461",
+      "name": "Движение системы с учетом трения",
+      "train_support": 19,
+      "eval_support": 5,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "462",
+      "name": "сила как мера взаимодействия",
+      "train_support": 54,
+      "eval_support": 6,
+      "known_negative": 3996,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "463",
+      "name": "Ядерная энергетика",
+      "train_support": 27,
+      "eval_support": 6,
+      "known_negative": 3996,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "464",
+      "name": "Первый закон Ньютона",
+      "train_support": 22,
+      "eval_support": 4,
+      "known_negative": 3986,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "465",
+      "name": "Второй закон Ньютона",
+      "train_support": 24,
+      "eval_support": 3,
+      "known_negative": 3987,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "466",
+      "name": "Третий закон Ньютона",
+      "train_support": 42,
+      "eval_support": 4,
+      "known_negative": 3986,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "467",
+      "name": "Релятивистская кинематика",
+      "train_support": 14,
+      "eval_support": 1,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "468",
+      "name": "Релятивистская динамика",
+      "train_support": 5,
+      "eval_support": 1,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "469",
+      "name": "Корпускулярно-волновая природа материи",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3992,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "470",
+      "name": "корпускулярные свойства электро-магнитного излучения",
+      "train_support": 23,
+      "eval_support": 8,
+      "known_negative": 3994,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "471",
+      "name": "волновые свойства микрочастиц",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 4000,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "472",
+      "name": "планетарная модель атома",
+      "train_support": 8,
+      "eval_support": 3,
+      "known_negative": 3997,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "473",
+      "name": "задачи на кредиты",
+      "train_support": 89,
+      "eval_support": 9,
+      "known_negative": 3891,
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1": 0.9473684210526315
+    },
+    {
+      "id": "474",
+      "name": "разные задачи на проценты",
+      "train_support": 257,
+      "eval_support": 19,
+      "known_negative": 3881,
+      "precision": 0.7916666666666666,
+      "recall": 1.0,
+      "f1": 0.8837209302325582
+    },
+    {
+      "id": "475",
+      "name": "задачи на вклады",
+      "train_support": 49,
+      "eval_support": 7,
+      "known_negative": 3893,
+      "precision": 0.7,
+      "recall": 1.0,
+      "f1": 0.8235294117647058
+    },
+    {
+      "id": "476",
+      "name": "неравенства в текстовых задачах",
+      "train_support": 32,
+      "eval_support": 3,
+      "known_negative": 3897,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "477",
+      "name": "Четырехугольники",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3899,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "478",
+      "name": "палаллелограмм",
+      "train_support": 199,
+      "eval_support": 19,
+      "known_negative": 3915,
+      "precision": 0.5882352941176471,
+      "recall": 0.5263157894736842,
+      "f1": 0.5555555555555556
+    },
+    {
+      "id": "479",
+      "name": "трапеция",
+      "train_support": 106,
+      "eval_support": 10,
+      "known_negative": 3930,
+      "precision": 0.46153846153846156,
+      "recall": 0.6,
+      "f1": 0.5217391304347826
+    },
+    {
+      "id": "480",
+      "name": "ромб",
+      "train_support": 83,
+      "eval_support": 6,
+      "known_negative": 3916,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    {
+      "id": "481",
+      "name": "прямоугольники",
+      "train_support": 72,
+      "eval_support": 6,
+      "known_negative": 3916,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571
+    },
+    {
+      "id": "482",
+      "name": "квадрат",
+      "train_support": 74,
+      "eval_support": 7,
+      "known_negative": 3915,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693
+    },
+    {
+      "id": "483",
+      "name": "теорема Фалеса",
+      "train_support": 34,
+      "eval_support": 4,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "484",
+      "name": "треугольники",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3750,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "485",
+      "name": "подобие треугольников",
+      "train_support": 176,
+      "eval_support": 25,
+      "known_negative": 3871,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "486",
+      "name": "прямоугольные треугольники",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3921,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "487",
+      "name": "теорема Пифагора",
+      "train_support": 57,
+      "eval_support": 15,
+      "known_negative": 3921,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "488",
+      "name": "Взаимоотношения между сторонами и углами треугольников.",
+      "train_support": 68,
+      "eval_support": 13,
+      "known_negative": 3893,
+      "precision": 0.4,
+      "recall": 0.46153846153846156,
+      "f1": 0.42857142857142855
+    },
+    {
+      "id": "489",
+      "name": "теорема косинусов",
+      "train_support": 95,
+      "eval_support": 15,
+      "known_negative": 3913,
+      "precision": 0.6666666666666666,
+      "recall": 0.13333333333333333,
+      "f1": 0.2222222222222222
+    },
+    {
+      "id": "490",
+      "name": "теорема синусов",
+      "train_support": 101,
+      "eval_support": 9,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "491",
+      "name": "площадь",
+      "train_support": 184,
+      "eval_support": 20,
+      "known_negative": 3903,
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1": 0.8421052631578947
+    },
+    {
+      "id": "492",
+      "name": "геометрические неравенства",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3929,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "493",
+      "name": "Неравенства для элементов треугольника",
+      "train_support": 22,
+      "eval_support": 12,
+      "known_negative": 3929,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "494",
+      "name": "Вписанный угол",
+      "train_support": 156,
+      "eval_support": 11,
+      "known_negative": 3907,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "495",
+      "name": "Касательные и секущие",
+      "train_support": 89,
+      "eval_support": 19,
+      "known_negative": 3899,
+      "precision": 0.3333333333333333,
+      "recall": 0.05263157894736842,
+      "f1": 0.09090909090909091
+    },
+    {
+      "id": "496",
+      "name": "Вписанная и описанная окружности",
+      "train_support": 191,
+      "eval_support": 16,
+      "known_negative": 3901,
+      "precision": 0.25,
+      "recall": 0.4375,
+      "f1": 0.3181818181818182
+    },
+    {
+      "id": "497",
+      "name": "Преобразования плоскости",
+      "train_support": 26,
+      "eval_support": 4,
+      "known_negative": 3900,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "498",
+      "name": "Движения",
+      "train_support": 133,
+      "eval_support": 20,
+      "known_negative": 3908,
+      "precision": 0.7142857142857143,
+      "recall": 0.25,
+      "f1": 0.37037037037037035
+    },
+    {
+      "id": "499",
+      "name": "Векторы",
+      "train_support": 180,
+      "eval_support": 29,
+      "known_negative": 3882,
+      "precision": 0.875,
+      "recall": 0.4827586206896552,
+      "f1": 0.6222222222222222
+    },
+    {
+      "id": "500",
+      "name": "метод решения задач в математике",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3894,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "501",
+      "name": "Геометрические методы",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3894,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "502",
+      "name": "метод координат",
+      "train_support": 199,
+      "eval_support": 27,
+      "known_negative": 3898,
+      "precision": 0.8,
+      "recall": 0.5925925925925926,
+      "f1": 0.6808510638297872
+    },
+    {
+      "id": "503",
+      "name": "многоугольники",
+      "train_support": 20,
+      "eval_support": 3,
+      "known_negative": 3916,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "504",
+      "name": "правильные многоугольники",
+      "train_support": 4,
+      "eval_support": 3,
+      "known_negative": 3923,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "505",
+      "name": "Выпуклые и невыпуклые многоугольники",
+      "train_support": 33,
+      "eval_support": 7,
+      "known_negative": 3931,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "506",
+      "name": "Соотношение в треугольнике",
+      "train_support": 36,
+      "eval_support": 2,
+      "known_negative": 3914,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "507",
+      "name": "Преобразования подобия",
+      "train_support": 35,
+      "eval_support": 8,
+      "known_negative": 3929,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "508",
+      "name": "Перпендикуляр к прямой. Расстояние от точки до прямой.",
+      "train_support": 16,
+      "eval_support": 0,
+      "known_negative": 3934,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "509",
+      "name": "общие свойства четырехугольника",
+      "train_support": 23,
+      "eval_support": 5,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "510",
+      "name": "площадь параллелограмма",
+      "train_support": 24,
+      "eval_support": 5,
+      "known_negative": 3916,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "511",
+      "name": "площадь четырехугольника",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3914,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "512",
+      "name": "площадь ромба",
+      "train_support": 37,
+      "eval_support": 2,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "513",
+      "name": "площадь треугольника",
+      "train_support": 37,
+      "eval_support": 2,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "514",
+      "name": "площадь трапеции",
+      "train_support": 37,
+      "eval_support": 2,
+      "known_negative": 3919,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "515",
+      "name": "Применение площадей",
+      "train_support": 66,
+      "eval_support": 7,
+      "known_negative": 3914,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "516",
+      "name": "определения подобных треугольников",
+      "train_support": 28,
+      "eval_support": 1,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "517",
+      "name": "признаки подобия треугольников",
+      "train_support": 31,
+      "eval_support": 1,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "518",
+      "name": "применения подобия треугольников",
+      "train_support": 40,
+      "eval_support": 7,
+      "known_negative": 3909,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "519",
+      "name": "соотношения между сторонами прямоугольного треугольника",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3897,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "520",
+      "name": "Тригонометрические функции острого угла",
+      "train_support": 40,
+      "eval_support": 6,
+      "known_negative": 3910,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "521",
+      "name": "Вычисление значений тригонометрических функций\n",
+      "train_support": 19,
+      "eval_support": 3,
+      "known_negative": 3913,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "522",
+      "name": "Решение прямоугольных треугольников",
+      "train_support": 30,
+      "eval_support": 10,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "523",
+      "name": "Замечательные точки треугольника",
+      "train_support": 28,
+      "eval_support": 5,
+      "known_negative": 3934,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "524",
+      "name": "Начальные сведения о векторах",
+      "train_support": 44,
+      "eval_support": 6,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "525",
+      "name": "Сложение и вычитание векторов",
+      "train_support": 34,
+      "eval_support": 2,
+      "known_negative": 3910,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "526",
+      "name": "Умножение вектора на число. Скалярное произведение векторов",
+      "train_support": 73,
+      "eval_support": 7,
+      "known_negative": 3905,
+      "precision": 0.2,
+      "recall": 0.14285714285714285,
+      "f1": 0.16666666666666666
+    },
+    {
+      "id": "527",
+      "name": "Векторный для решения планиметрических задач",
+      "train_support": 59,
+      "eval_support": 8,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "528",
+      "name": "Длина окружности и площадь круга",
+      "train_support": 112,
+      "eval_support": 12,
+      "known_negative": 3923,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "529",
+      "name": "параллельный перенос",
+      "train_support": 31,
+      "eval_support": 2,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "530",
+      "name": "поворот",
+      "train_support": 31,
+      "eval_support": 2,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "531",
+      "name": "Центральная и осевая симметрии",
+      "train_support": 37,
+      "eval_support": 1,
+      "known_negative": 3910,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "532",
+      "name": "Простейшие задачи в координатах",
+      "train_support": 59,
+      "eval_support": 8,
+      "known_negative": 3912,
+      "precision": 0.7142857142857143,
+      "recall": 0.625,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "533",
+      "name": "Уравнения окружности и прямой",
+      "train_support": 29,
+      "eval_support": 3,
+      "known_negative": 3917,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "534",
+      "name": "Применение тригонометрических функций к нахождению площадей",
+      "train_support": 24,
+      "eval_support": 4,
+      "known_negative": 3924,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "535",
+      "name": "параллелограмм Вариньона",
+      "train_support": 4,
+      "eval_support": 0,
+      "known_negative": 3922,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "536",
+      "name": "средняя линия треугольника",
+      "train_support": 121,
+      "eval_support": 2,
+      "known_negative": 3934,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "537",
+      "name": "треугольник Рело",
+      "train_support": 5,
+      "eval_support": 0,
+      "known_negative": 3918,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "538",
+      "name": "Ортоцентр",
+      "train_support": 4,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "539",
+      "name": "Окружность Эйлера",
+      "train_support": 2,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "540",
+      "name": "Функции одной переменной",
+      "train_support": 64,
+      "eval_support": 8,
+      "known_negative": 3916,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8
+    },
+    {
+      "id": "541",
+      "name": "предел функции",
+      "train_support": 173,
+      "eval_support": 23,
+      "known_negative": 3916,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "542",
+      "name": "использование производных для построения графика функций",
+      "train_support": 51,
+      "eval_support": 6,
+      "known_negative": 3941,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    {
+      "id": "543",
+      "name": "комплексные числа",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3883,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "544",
+      "name": "Комплексные числа и арифметические операции над ними",
+      "train_support": 108,
+      "eval_support": 17,
+      "known_negative": 3930,
+      "precision": 1.0,
+      "recall": 0.9411764705882353,
+      "f1": 0.9696969696969697
+    },
+    {
+      "id": "545",
+      "name": "Комплексные числа и координатная плоскость",
+      "train_support": 76,
+      "eval_support": 8,
+      "known_negative": 3939,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875
+    },
+    {
+      "id": "546",
+      "name": "Тригонометрическая форма записи комплексного числа",
+      "train_support": 128,
+      "eval_support": 20,
+      "known_negative": 3927,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "547",
+      "name": "Комплексные числа и квадратные уравнения",
+      "train_support": 63,
+      "eval_support": 6,
+      "known_negative": 3941,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "548",
+      "name": "Возведение комплексного числа в степень",
+      "train_support": 70,
+      "eval_support": 13,
+      "known_negative": 3934,
+      "precision": 0.6842105263157895,
+      "recall": 1.0,
+      "f1": 0.8125
+    },
+    {
+      "id": "549",
+      "name": "Комбинаторика",
+      "train_support": 208,
+      "eval_support": 40,
+      "known_negative": 3896,
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1": 0.918918918918919
+    },
+    {
+      "id": "550",
+      "name": "правила суммы и произведения",
+      "train_support": 10,
+      "eval_support": 3,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "551",
+      "name": "перестановки",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3901,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "552",
+      "name": "перестановки с повторениями",
+      "train_support": 1,
+      "eval_support": 1,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "553",
+      "name": "перестановки без повторений",
+      "train_support": 19,
+      "eval_support": 5,
+      "known_negative": 3902,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "554",
+      "name": "сочетания",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3901,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "555",
+      "name": "сочетания без повторения",
+      "train_support": 19,
+      "eval_support": 5,
+      "known_negative": 3902,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "556",
+      "name": "сочетания с повторениями",
+      "train_support": 12,
+      "eval_support": 1,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "557",
+      "name": "размещения",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3902,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "558",
+      "name": "размещения с повторениями",
+      "train_support": 30,
+      "eval_support": 5,
+      "known_negative": 3902,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    },
+    {
+      "id": "559",
+      "name": "размещения без повторений",
+      "train_support": 19,
+      "eval_support": 5,
+      "known_negative": 3902,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    {
+      "id": "560",
+      "name": "теория вероятностей",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3853,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "561",
+      "name": "классическое определение вероятностей",
+      "train_support": 98,
+      "eval_support": 24,
+      "known_negative": 3923,
+      "precision": 0.71875,
+      "recall": 0.9583333333333334,
+      "f1": 0.8214285714285714
+    },
+    {
+      "id": "562",
+      "name": "стереометрия",
+      "train_support": 278,
+      "eval_support": 33,
+      "known_negative": 3669,
+      "precision": 0.6923076923076923,
+      "recall": 0.8181818181818182,
+      "f1": 0.75
+    },
+    {
+      "id": "563",
+      "name": "аксиомы стереометрии",
+      "train_support": 68,
+      "eval_support": 11,
+      "known_negative": 3903,
+      "precision": 0.5,
+      "recall": 0.36363636363636365,
+      "f1": 0.42105263157894735
+    },
+    {
+      "id": "564",
+      "name": "параллельность прямой и плоскости",
+      "train_support": 180,
+      "eval_support": 31,
+      "known_negative": 3824,
+      "precision": 0.7857142857142857,
+      "recall": 0.3548387096774194,
+      "f1": 0.4888888888888889
+    },
+    {
+      "id": "565",
+      "name": "скрещивающиеся прямые в пространстве",
+      "train_support": 56,
+      "eval_support": 7,
+      "known_negative": 3876,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "566",
+      "name": "параллельность плоскостей",
+      "train_support": 52,
+      "eval_support": 5,
+      "known_negative": 3878,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "567",
+      "name": "задачи на построение сечений",
+      "train_support": 63,
+      "eval_support": 5,
+      "known_negative": 3856,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "568",
+      "name": "перпендикулярность прямых и плоскостей",
+      "train_support": 87,
+      "eval_support": 9,
+      "known_negative": 3867,
+      "precision": 0.5,
+      "recall": 0.1111111111111111,
+      "f1": 0.18181818181818182
+    },
+    {
+      "id": "569",
+      "name": "Теорема о прямой, перпендикулярной к плоскости",
+      "train_support": 36,
+      "eval_support": 4,
+      "known_negative": 3901,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "570",
+      "name": "Угол между прямой и плоскостью",
+      "train_support": 86,
+      "eval_support": 15,
+      "known_negative": 3890,
+      "precision": 0.5,
+      "recall": 0.4,
+      "f1": 0.4444444444444444
+    },
+    {
+      "id": "571",
+      "name": "перпендикулярность плоскостей",
+      "train_support": 39,
+      "eval_support": 9,
+      "known_negative": 3868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "572",
+      "name": "Многогранники",
+      "train_support": 52,
+      "eval_support": 9,
+      "known_negative": 3889,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "573",
+      "name": "Пространственная теорема Пифагора",
+      "train_support": 17,
+      "eval_support": 0,
+      "known_negative": 3905,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "574",
+      "name": "Пирамида",
+      "train_support": 52,
+      "eval_support": 9,
+      "known_negative": 3896,
+      "precision": 0.6,
+      "recall": 0.6666666666666666,
+      "f1": 0.631578947368421
+    },
+    {
+      "id": "575",
+      "name": "Разложение вектора по трем некомпланарным векторам",
+      "train_support": 20,
+      "eval_support": 6,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "576",
+      "name": "Уравнение плоскости",
+      "train_support": 31,
+      "eval_support": 4,
+      "known_negative": 3916,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "577",
+      "name": "Преобразование подобия",
+      "train_support": 11,
+      "eval_support": 0,
+      "known_negative": 3920,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "578",
+      "name": "Цилиндр, сфера, конус",
+      "train_support": 68,
+      "eval_support": 11,
+      "known_negative": 3862,
+      "precision": 0.625,
+      "recall": 0.9090909090909091,
+      "f1": 0.7407407407407407
+    },
+    {
+      "id": "579",
+      "name": "Площадь поверхности цилиндра",
+      "train_support": 18,
+      "eval_support": 5,
+      "known_negative": 3898,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "580",
+      "name": "усеченный конус",
+      "train_support": 28,
+      "eval_support": 5,
+      "known_negative": 3898,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714
+    },
+    {
+      "id": "581",
+      "name": "Сечения конической поверхности",
+      "train_support": 21,
+      "eval_support": 4,
+      "known_negative": 3899,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "582",
+      "name": "объем",
+      "train_support": 160,
+      "eval_support": 10,
+      "known_negative": 3889,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727273
+    },
+    {
+      "id": "583",
+      "name": "объем прямоугольного параллилепипеда",
+      "train_support": 11,
+      "eval_support": 0,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "584",
+      "name": "объем призмы",
+      "train_support": 11,
+      "eval_support": 1,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "585",
+      "name": "конус",
+      "train_support": 48,
+      "eval_support": 9,
+      "known_negative": 3895,
+      "precision": 0.75,
+      "recall": 0.6666666666666666,
+      "f1": 0.7058823529411765
+    },
+    {
+      "id": "586",
+      "name": "площадь сферы",
+      "train_support": 61,
+      "eval_support": 5,
+      "known_negative": 3899,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "587",
+      "name": "Компланарные векторы",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3911,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "588",
+      "name": "Расстояние от точки до плоскости",
+      "train_support": 35,
+      "eval_support": 2,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "589",
+      "name": "Общий перпендикуляр скрещивающихся прямых",
+      "train_support": 7,
+      "eval_support": 0,
+      "known_negative": 3905,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "590",
+      "name": "Теорема о трех перпендикулярах",
+      "train_support": 9,
+      "eval_support": 1,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "591",
+      "name": "Двугранный угол",
+      "train_support": 49,
+      "eval_support": 4,
+      "known_negative": 3901,
+      "precision": 0.4,
+      "recall": 0.5,
+      "f1": 0.4444444444444444
+    },
+    {
+      "id": "592",
+      "name": "призма",
+      "train_support": 7,
+      "eval_support": 0,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "593",
+      "name": "параллилепипед",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3902,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "594",
+      "name": "Объем наклонной призмы",
+      "train_support": 6,
+      "eval_support": 0,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "595",
+      "name": "Аксиомы теории вероятностей",
+      "train_support": 68,
+      "eval_support": 7,
+      "known_negative": 3940,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
+    },
+    {
+      "id": "596",
+      "name": "Условная вероятность.Теорема Байеса",
+      "train_support": 55,
+      "eval_support": 7,
+      "known_negative": 3940,
+      "precision": 0.45454545454545453,
+      "recall": 0.7142857142857143,
+      "f1": 0.5555555555555556
+    },
+    {
+      "id": "597",
+      "name": "независимые события",
+      "train_support": 54,
+      "eval_support": 7,
+      "known_negative": 3940,
+      "precision": 0.3333333333333333,
+      "recall": 0.42857142857142855,
+      "f1": 0.375
+    },
+    {
+      "id": "598",
+      "name": "Схема Бернулли",
+      "train_support": 83,
+      "eval_support": 12,
+      "known_negative": 3935,
+      "precision": 0.5294117647058824,
+      "recall": 0.75,
+      "f1": 0.6206896551724138
+    },
+    {
+      "id": "599",
+      "name": "Характеристики случайной величины",
+      "train_support": 53,
+      "eval_support": 10,
+      "known_negative": 3937,
+      "precision": 0.42857142857142855,
+      "recall": 0.6,
+      "f1": 0.5
+    },
+    {
+      "id": "600",
+      "name": "Закон больших чисел",
+      "train_support": 19,
+      "eval_support": 0,
+      "known_negative": 3947,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "601",
+      "name": "Неравенство Чебышёва",
+      "train_support": 21,
+      "eval_support": 0,
+      "known_negative": 3947,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "602",
+      "name": "Ковариация случайных величин",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3946,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "603",
+      "name": "Коэффициент корреляции",
+      "train_support": 5,
+      "eval_support": 0,
+      "known_negative": 3947,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "604",
+      "name": "Непрерывно распределённые случайные\nвеличины",
+      "train_support": 12,
+      "eval_support": 4,
+      "known_negative": 3943,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "605",
+      "name": "Равномерное распределение",
+      "train_support": 27,
+      "eval_support": 3,
+      "known_negative": 3944,
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "f1": 0.5
+    },
+    {
+      "id": "606",
+      "name": "Нормальное распределение",
+      "train_support": 24,
+      "eval_support": 4,
+      "known_negative": 3943,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.2857142857142857
+    },
+    {
+      "id": "607",
+      "name": "Показательное распределение",
+      "train_support": 14,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "608",
+      "name": "Дискретные случайные величины",
+      "train_support": 37,
+      "eval_support": 5,
+      "known_negative": 3942,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "609",
+      "name": "Распределение Пуассона",
+      "train_support": 8,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "610",
+      "name": "Расстояния между прямыми и плоскостями",
+      "train_support": 11,
+      "eval_support": 6,
+      "known_negative": 3899,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "611",
+      "name": "Параллельный перенос",
+      "train_support": 12,
+      "eval_support": 1,
+      "known_negative": 3882,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "612",
+      "name": "Параллельное проектирование",
+      "train_support": 15,
+      "eval_support": 3,
+      "known_negative": 3880,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "613",
+      "name": "Параллельные проекции плоских фигур",
+      "train_support": 17,
+      "eval_support": 0,
+      "known_negative": 3883,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "614",
+      "name": "Изображение пространственных фигур",
+      "train_support": 11,
+      "eval_support": 0,
+      "known_negative": 3883,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "615",
+      "name": "Сечения многогранников",
+      "train_support": 41,
+      "eval_support": 6,
+      "known_negative": 3868,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4
+    },
+    {
+      "id": "616",
+      "name": "Многогранники, описанные около сферы",
+      "train_support": 88,
+      "eval_support": 23,
+      "known_negative": 3880,
+      "precision": 0.8823529411764706,
+      "recall": 0.6521739130434783,
+      "f1": 0.75
+    },
+    {
+      "id": "617",
+      "name": "Многогранники, вписанные в сферу",
+      "train_support": 98,
+      "eval_support": 22,
+      "known_negative": 3881,
+      "precision": 0.8,
+      "recall": 0.7272727272727273,
+      "f1": 0.7619047619047619
+    },
+    {
+      "id": "618",
+      "name": "Сфера и шар. Взаимное расположение сферы и плоскости.",
+      "train_support": 21,
+      "eval_support": 1,
+      "known_negative": 3902,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "619",
+      "name": "Многогранные углы",
+      "train_support": 30,
+      "eval_support": 2,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "620",
+      "name": "Выпуклые многогранники",
+      "train_support": 20,
+      "eval_support": 1,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "621",
+      "name": "Теорема Эйлера",
+      "train_support": 11,
+      "eval_support": 1,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "622",
+      "name": "Правильные многогранники",
+      "train_support": 11,
+      "eval_support": 0,
+      "known_negative": 3905,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "623",
+      "name": "Полуправильные многогранники",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "624",
+      "name": "Звездчатые многогранники",
+      "train_support": 6,
+      "eval_support": 1,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "625",
+      "name": "Кристаллы - природные многогранники",
+      "train_support": 7,
+      "eval_support": 0,
+      "known_negative": 3905,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "626",
+      "name": "Центральное проектирование.Изображение пространственных фигур в центральной проекции.",
+      "train_support": 13,
+      "eval_support": 2,
+      "known_negative": 3903,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "627",
+      "name": "Параллельность прямых в пространстве",
+      "train_support": 14,
+      "eval_support": 1,
+      "known_negative": 3882,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "628",
+      "name": "Моделирование многогранников",
+      "train_support": 11,
+      "eval_support": 2,
+      "known_negative": 3912,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "629",
+      "name": "Пространственные фигуры",
+      "train_support": 17,
+      "eval_support": 2,
+      "known_negative": 3912,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "630",
+      "name": "Теорема Чевы",
+      "train_support": 46,
+      "eval_support": 6,
+      "known_negative": 3910,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "id": "631",
+      "name": "теорема Менелая",
+      "train_support": 46,
+      "eval_support": 6,
+      "known_negative": 3910,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "632",
+      "name": "Подобные треугольники в окружности",
+      "train_support": 57,
+      "eval_support": 9,
+      "known_negative": 3907,
+      "precision": 0.75,
+      "recall": 0.3333333333333333,
+      "f1": 0.46153846153846156
+    },
+    {
+      "id": "633",
+      "name": "теорема Птолемея",
+      "train_support": 2,
+      "eval_support": 1,
+      "known_negative": 3901,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "634",
+      "name": "Формула биссектрисы треугольника",
+      "train_support": 43,
+      "eval_support": 10,
+      "known_negative": 3918,
+      "precision": 0.5,
+      "recall": 0.1,
+      "f1": 0.16666666666666666
+    },
+    {
+      "id": "635",
+      "name": "Вторая производная.Понятие выпуклости функции",
+      "train_support": 30,
+      "eval_support": 2,
+      "known_negative": 3938,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "636",
+      "name": "теория чисел. делимость",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3934,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "637",
+      "name": "Делимость нацело и ее свойства",
+      "train_support": 21,
+      "eval_support": 6,
+      "known_negative": 3941,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334
+    },
+    {
+      "id": "638",
+      "name": "Деление с остатком. Арифметика остатков",
+      "train_support": 61,
+      "eval_support": 3,
+      "known_negative": 3944,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "639",
+      "name": "сравнение по модулю",
+      "train_support": 61,
+      "eval_support": 3,
+      "known_negative": 3944,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "640",
+      "name": "Наибольший общий делитель",
+      "train_support": 26,
+      "eval_support": 1,
+      "known_negative": 3946,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "641",
+      "name": "наименьшее общее кратное",
+      "train_support": 26,
+      "eval_support": 1,
+      "known_negative": 3946,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "642",
+      "name": "Взаимная простота чисел",
+      "train_support": 26,
+      "eval_support": 1,
+      "known_negative": 3946,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "643",
+      "name": "простые и составные числа",
+      "train_support": 22,
+      "eval_support": 3,
+      "known_negative": 3944,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "644",
+      "name": "теорема Безу",
+      "train_support": 28,
+      "eval_support": 3,
+      "known_negative": 3944,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "645",
+      "name": "Построение сечений многогранников (аксиоматический метод)",
+      "train_support": 9,
+      "eval_support": 3,
+      "known_negative": 3875,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "646",
+      "name": "Построение следов плоскостей",
+      "train_support": 8,
+      "eval_support": 0,
+      "known_negative": 3878,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "647",
+      "name": "Построение параллельных прямых и параллельных плоскостей",
+      "train_support": 21,
+      "eval_support": 3,
+      "known_negative": 3875,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "648",
+      "name": "Построение сечений многогранников (комбинированный метод)",
+      "train_support": 17,
+      "eval_support": 1,
+      "known_negative": 3877,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "649",
+      "name": "Построение пересечения заданных плоскостей и прямых",
+      "train_support": 12,
+      "eval_support": 3,
+      "known_negative": 3875,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "650",
+      "name": "Выносные чертежи",
+      "train_support": 6,
+      "eval_support": 3,
+      "known_negative": 3875,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "651",
+      "name": "Построения на изображениях плоских фигур",
+      "train_support": 9,
+      "eval_support": 1,
+      "known_negative": 3877,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "652",
+      "name": "Построения на изображениях пространственных фигур",
+      "train_support": 60,
+      "eval_support": 7,
+      "known_negative": 3871,
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1": 0.8
+    },
+    {
+      "id": "653",
+      "name": "Развертки многогранников",
+      "train_support": 35,
+      "eval_support": 1,
+      "known_negative": 3877,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "654",
+      "name": "Расстояние между точками",
+      "train_support": 21,
+      "eval_support": 4,
+      "known_negative": 3916,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "655",
+      "name": "Расстояние от точки до прямой",
+      "train_support": 14,
+      "eval_support": 3,
+      "known_negative": 3917,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "656",
+      "name": "Расстояние между скрещивающимися прямыми",
+      "train_support": 8,
+      "eval_support": 1,
+      "known_negative": 3904,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "657",
+      "name": "Угол между плоскостями",
+      "train_support": 10,
+      "eval_support": 3,
+      "known_negative": 3902,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "658",
+      "name": "Площади сечений",
+      "train_support": 0,
+      "eval_support": 0,
+      "known_negative": 3868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "660",
+      "name": "Расчет углов в равных треугольниках, дополнительные построения",
+      "train_support": 15,
+      "eval_support": 3,
+      "known_negative": 3937,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "661",
+      "name": "Осевая симметрия",
+      "train_support": 28,
+      "eval_support": 2,
+      "known_negative": 3914,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "662",
+      "name": "Центральная симметрия",
+      "train_support": 17,
+      "eval_support": 4,
+      "known_negative": 3912,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "663",
+      "name": "метод дополнительных построений",
+      "train_support": 14,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "664",
+      "name": "Построение касательных",
+      "train_support": 12,
+      "eval_support": 0,
+      "known_negative": 3925,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "665",
+      "name": "Касание окружностей",
+      "train_support": 16,
+      "eval_support": 3,
+      "known_negative": 3915,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "666",
+      "name": "среднее геометрическое",
+      "train_support": 7,
+      "eval_support": 0,
+      "known_negative": 3926,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "667",
+      "name": "Четырехугольник с перпендикулярными диагоналями",
+      "train_support": 4,
+      "eval_support": 2,
+      "known_negative": 3924,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "668",
+      "name": "Конфигурационные задачи",
+      "train_support": 8,
+      "eval_support": 3,
+      "known_negative": 3923,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "669",
+      "name": "ГМТ с постоянным углом",
+      "train_support": 17,
+      "eval_support": 0,
+      "known_negative": 3936,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "670",
+      "name": "Угол между касательной и хордой",
+      "train_support": 8,
+      "eval_support": 1,
+      "known_negative": 3917,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "671",
+      "name": "Отношение площадей треугольников с равным углом",
+      "train_support": 6,
+      "eval_support": 0,
+      "known_negative": 3921,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "672",
+      "name": "Расчёт частей треугольника",
+      "train_support": 8,
+      "eval_support": 0,
+      "known_negative": 3921,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "673",
+      "name": "Группировка площадей",
+      "train_support": 11,
+      "eval_support": 4,
+      "known_negative": 3917,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "674",
+      "name": "Обратный ход",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "675",
+      "name": "средняя линия трапеции",
+      "train_support": 12,
+      "eval_support": 1,
+      "known_negative": 3930,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "676",
+      "name": "Отражение и зеркала",
+      "train_support": 9,
+      "eval_support": 2,
+      "known_negative": 3938,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "677",
+      "name": "кратчайшие пути",
+      "train_support": 8,
+      "eval_support": 1,
+      "known_negative": 3939,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "678",
+      "name": "ломаные",
+      "train_support": 13,
+      "eval_support": 0,
+      "known_negative": 3941,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "679",
+      "name": "равные фигуры",
+      "train_support": 8,
+      "eval_support": 0,
+      "known_negative": 3941,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "680",
+      "name": "Выпуклые фигуры",
+      "train_support": 8,
+      "eval_support": 2,
+      "known_negative": 3939,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "681",
+      "name": "Формула включений и исключений",
+      "train_support": 5,
+      "eval_support": 1,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "682",
+      "name": "Алгебра событий, основные понятия",
+      "train_support": 23,
+      "eval_support": 1,
+      "known_negative": 3906,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "683",
+      "name": "теорема Лапласа",
+      "train_support": 14,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "684",
+      "name": "теорема Пуассона",
+      "train_support": 14,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    {
+      "id": "685",
+      "name": "Первоначальные понятия математической статистики",
+      "train_support": 13,
+      "eval_support": 0,
+      "known_negative": 3943,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "686",
+      "name": "Оценка вероятности по относительной частоте. Доверительный интервал",
+      "train_support": 31,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "687",
+      "name": "Оценка параметров в статистике",
+      "train_support": 7,
+      "eval_support": 2,
+      "known_negative": 3945,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  ],
+  "rare_topics": {
+    "unseen_train": {
+      "label_count": 72,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "micro_f1": 0.0,
+      "macro_f1_all_labels": 0.0,
+      "macro_f1_supported_labels": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "known_pairs": 277710,
+      "unknown_pairs": 10434
+    },
+    "train_1_to_4": {
+      "label_count": 26,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "micro_f1": 0.0,
+      "macro_f1_all_labels": 0.0,
+      "macro_f1_supported_labels": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "known_pairs": 100868,
+      "unknown_pairs": 3184
+    },
+    "train_5_to_19": {
+      "label_count": 162,
+      "micro_precision": 0.8928571428571429,
+      "micro_recall": 0.09803921568627451,
+      "micro_f1": 0.17667844522968199,
+      "macro_f1_all_labels": 0.08683127572016462,
+      "macro_f1_supported_labels": 0.11344086021505374,
+      "macro_precision": 0.10905349794238682,
+      "macro_recall": 0.07983539094650205,
+      "known_pairs": 638416,
+      "unknown_pairs": 9908
+    },
+    "train_20_plus": {
+      "label_count": 403,
+      "micro_precision": 0.7150692840646651,
+      "micro_recall": 0.6343149807938541,
+      "micro_f1": 0.6722757497625187,
+      "macro_f1_all_labels": 0.5151528089933397,
+      "macro_f1_supported_labels": 0.5190164550607897,
+      "macro_precision": 0.5479324255354742,
+      "macro_recall": 0.5323725124285253,
+      "known_pairs": 1590342,
+      "unknown_pairs": 22464
+    }
+  }
+}

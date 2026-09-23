@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "tasks_normalized_v2.csv": "2c99703b8abd4810dd197daa0678e4554e7217cfc5f01567d144af1b16e2b816",
+    "task_topic_links_v2.csv": "0f2cc8d48042c0cdc9867007987d888d30805e419ad820fcbab1d193c39a6184",
+    "manual_review_queue_v2.csv": "3c711df1f0328e315b4344c3e8f200257d80b30014209dcb3160090f485f73cd"
+  },
+  "feature_fields": [
+    "task"
+  ],
+  "review_excluded": true,
+  "excluded_rows": 205,
+  "split_counts": {
+    "train": 31811,
+    "validation": 4002,
+    "test": 4002
+  },
+  "labels": 663,
+  "group_overlap": 0,
+  "artifact_sha256": {
+    "train.jsonl": "5d826316195723b301249f3852b21ba8a26d440c5f216b4886ca68054acea749",
+    "test.jsonl": "aec5f4da1215e93ee30672c5f7dd9a000f25c3337bcee4f1b9697de71236b77f",
+    "validation.jsonl": "a9870fb22e66e00f58fd533f8ad19f14e18b9318d30cc20349a409c9ef336ca6",
+    "schema.json": "07f2b368d96ccadc075e4180193b468fb6bb4ce5ebab9d6b79c6b551c0d0d0be"
+  }
+}

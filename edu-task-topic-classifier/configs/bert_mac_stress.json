@@ -1,0 +1,31 @@
+{
+  "kind": "bert",
+  "mode": "smoke",
+  "seed": 42,
+  "feature_fields": [
+    "task"
+  ],
+  "train_limit": 96,
+  "validation_limit": 32,
+  "bert": {
+    "model": "ai-forever/ruBert-base",
+    "revision": "05f37a2ca9e333fd18f30cd0c96c68d274793c69",
+    "device": "mps",
+    "batch_size": 1,
+    "gradient_accumulation": 16,
+    "max_length": 128,
+    "epochs": 2,
+    "learning_rate": 2e-05,
+    "patience": 2,
+    "min_delta": 0.0001,
+    "pos_weight_cap": 20,
+    "topic_loss_weight": 1.0,
+    "gradient_checkpointing": true,
+    "cpu_threads": 6,
+    "fixed_padding": true,
+    "optimizer_foreach": false,
+    "mps_empty_cache_interval": 16,
+    "mps_memory_fraction": 0.65,
+    "log_interval": 16
+  }
+}

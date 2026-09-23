@@ -1,0 +1,17 @@
+{
+  "kind": "baseline",
+  "mode": "smoke",
+  "seed": 42,
+  "feature_fields": [
+    "task"
+  ],
+  "train_limit": 1000,
+  "validation_limit": 200,
+  "baseline": {
+    "word_features": 5000,
+    "char_features": 10000,
+    "min_df": 2,
+    "alpha": 1e-05,
+    "epochs": 5
+  }
+}

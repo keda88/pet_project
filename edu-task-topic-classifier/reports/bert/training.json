@@ -1,0 +1,7 @@
+{
+  "device": "mps",
+  "precision": "float32",
+  "active_topics": 591,
+  "best_validation_loss": 0.06413916821230063,
+  "epochs_completed": 6
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "bert",
+  "mode": "full",
+  "seed": 42,
+  "feature_fields": [
+    "task"
+  ],
+  "train_limit": null,
+  "validation_limit": null,
+  "bert": {
+    "model": "ai-forever/ruBert-base",
+    "revision": "05f37a2ca9e333fd18f30cd0c96c68d274793c69",
+    "device": "auto",
+    "batch_size": 2,
+    "gradient_accumulation": 8,
+    "max_length": 256,
+    "epochs": 6,
+    "learning_rate": 2e-05,
+    "patience": 2,
+    "min_delta": 0.0001,
+    "pos_weight_cap": 20,
+    "topic_loss_weight": 1.0,
+    "gradient_checkpointing": true,
+    "cpu_threads": 6
+  }
+}

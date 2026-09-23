@@ -1,0 +1,84 @@
+{
+  "version": "v2",
+  "source_reports": [
+    "analysis_report_v2.md",
+    "verification_v2.json"
+  ],
+  "source_rows": 42648,
+  "unique_tasks": 40020,
+  "task_topic_pairs": 42648,
+  "taxonomy": {
+    "total": 688,
+    "used": 594,
+    "unused": 94,
+    "unknown": 0
+  },
+  "subject_tasks": {
+    "Математика": 24997,
+    "Физика": 15023
+  },
+  "cross_subject": {
+    "task_ids": 0,
+    "normalized_text_groups": 0
+  },
+  "exact_duplicate_text": {
+    "groups": 168,
+    "tasks": 336,
+    "topic_conflict_groups": 94,
+    "nonempty_answer_conflict_groups": 20
+  },
+  "semantic_groups": 39776,
+  "numeric_variants": {
+    "groups": 67,
+    "tasks": 152
+  },
+  "seed": 42,
+  "split_by_subject": {
+    "Математика": {
+      "train": 19997,
+      "validation": 2500,
+      "test": 2500
+    },
+    "Физика": {
+      "train": 12019,
+      "validation": 1502,
+      "test": 1502
+    }
+  },
+  "manual_review": {
+    "review_groups": 100,
+    "tasks": 200,
+    "semantic_groups": 98,
+    "excluded_after_semantic_expansion": 205,
+    "excluded_by_split": {
+      "train": 205,
+      "validation": 0,
+      "test": 0
+    },
+    "automatic_label_corrections": false
+  },
+  "verification_checks": {
+    "lossless_roundtrip": true,
+    "task_topic_pairs_preserved": true,
+    "semantic_groups_disjoint": true,
+    "subject_scoped_exact_text_disjoint": true,
+    "row_order_independent_split": true,
+    "byte_identical_rerun": true,
+    "source_and_previous_files_unchanged_during_rerun": true,
+    "grouping_boundary_examples": true
+  },
+  "source_hashes_unchanged": true,
+  "sha256": {
+    "manual_review_queue_v2.csv": "3c711df1f0328e315b4344c3e8f200257d80b30014209dcb3160090f485f73cd",
+    "tasks_normalized_v2.csv": "2c99703b8abd4810dd197daa0678e4554e7217cfc5f01567d144af1b16e2b816",
+    "task_topic_links_v2.csv": "0f2cc8d48042c0cdc9867007987d888d30805e419ad820fcbab1d193c39a6184",
+    "analysis_report_v2.md": "3969aa5e13fbb7ab206b1e93d86aab0e1bc19460658457c24d285e1a0bcb969d",
+    "normalize_dataset.py": "d191baca97992a934d55228a1fc762e638bfb3a042bb7f54b1f42e63fc45ab2e",
+    "tasks_normalized.csv": "782e3196c7d8c270f443a35bfa751dedb3d64f753040fd6748b7863c00f9fce8",
+    "task_topic_links.csv": "0f2cc8d48042c0cdc9867007987d888d30805e419ad820fcbab1d193c39a6184",
+    "analysis_report.md": "4728db967918ea91afd600b995394cfa6486851ad17d0b104b7ca7c9d9084943",
+    "data-1719430924811.csv": "f41885214d536e6b8e1c8be23ddeaf15907c554ed24c95ea8c697aeb59a4e5cc",
+    "topics.csv": "2e52d414eecd7038c04d70577efddd714522009466bc69db52b116dce2e2db3f"
+  },
+  "matches_training_manifest_source_hashes": true
+}
